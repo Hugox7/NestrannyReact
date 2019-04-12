@@ -1,0 +1,9 @@
+#contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact-form {
+    width: 50%;
+}

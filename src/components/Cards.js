@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+// import { Link } from 'react-router-dom';
 
 import egalite from '../assets/img/egalite.jpg';
 import conseil from '../assets/img/conseil.JPG';
@@ -27,6 +28,7 @@ const Cards = () => {
                                 the card's content.
                                 </Card.Text>
                                 <Button variant="primary">Voir nos formations</Button>
+                                <div className="line-public" />
                             </Card.Body>
                         </Card>
                     </Col>
@@ -41,6 +43,7 @@ const Cards = () => {
                                 the card's content.
                                 </Card.Text>
                                 <Button variant="primary">Voir nos formations</Button>
+                                <div className="line-prive" />
                             </Card.Body>
                         </Card>
                     </Col>
@@ -48,13 +51,14 @@ const Cards = () => {
                     <Col xs={12} sm={12} md={6} xl={4}>
                         <Card className="nocard">
                             <Card.Img variant="top" src={conseil} />
-                            <Card.Body>
+                            <Card.Body className="card-body">
                                 <Card.Title>Conseil, étude et audit</Card.Title>
                                 <Card.Text>
                                 Some quick example text to build on the card title and make up the bulk of
                                 the card's content.
                                 </Card.Text>
                                 <Button variant="primary">Voir nos formations</Button>
+                                <div className="line-conseil" />
                             </Card.Body>
                         </Card>
                     </Col>

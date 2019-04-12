@@ -3,13 +3,13 @@ import './App.css';
 
 import { Route, Switch } from 'react-router-dom';
 
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Main from './pages/Main';
-import Public from './pages/Public';
-import Prive from './pages/Prive';
-import Conseil from './pages/Conseil';
-import Devis from './pages/Devis';
+import Header     from './components/Header';
+import Footer     from './components/Footer';
+import Main       from './pages/Main';
+import Public     from './pages/Public';
+import Prive      from './pages/Prive';
+import Conseil    from './pages/Conseil';
+import Devis      from './pages/Devis';
 
 class App extends Component {
   render() {
@@ -18,10 +18,10 @@ class App extends Component {
         <Header />
         <Switch>
           <Route exact path="/" component={Main} />
-          <Route path="/secteur-public/" component={Public} />
-          <Route path="/secteur-prive/" component={Prive} />
-          <Route path="/conseil-et-audit/" component={Conseil} />
-          <Route path="/devis/" component={Devis} />
+          <Route path="/secteur-public" component={Public} />
+          <Route path="/secteur-prive" component={Prive} />
+          <Route path="/conseil-et-audit" component={Conseil} />
+          <Route path="/devis" component={Devis} />
         </Switch>
         <Footer />
       </div>

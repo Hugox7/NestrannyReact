@@ -4,4 +4,36 @@
 
 .nocard {
     margin: 2vw 3vw 2vw 3vw;
+    position: relative;
+}
+
+.line-public {
+    position: absolute;
+    width: 100%;
+    height: 6px;
+    background-color: green;
+    left: 0;
+    bottom: 176px;
+}
+
+.line-prive {
+    position: absolute;
+    width: 100%;
+    height: 6px;
+    background-color: darkcyan;
+    left: 0;
+    bottom: 176px;
+}
+
+.line-conseil {
+    position: absolute;
+    width: 100%;
+    height: 6px;
+    background-color: orange;
+    left: 0;
+    bottom: 176px;
+}
+
+.card-body {
+    text-align: left;
 }
