@@ -10,6 +10,7 @@ import Public     from './pages/Public';
 import Prive      from './pages/Prive';
 import Conseil    from './pages/Conseil';
 import Devis      from './pages/Devis';
+import contact    from './pages/Contact';
 
 class App extends Component {
   render() {
@@ -21,6 +22,7 @@ class App extends Component {
           <Route path="/secteur-public" component={Public} />
           <Route path="/secteur-prive" component={Prive} />
           <Route path="/conseil-et-audit" component={Conseil} />
+          <Route path="/contact" component={contact} />
           <Route path="/devis" component={Devis} />
         </Switch>
         <Footer />

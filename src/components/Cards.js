@@ -21,6 +21,7 @@ const Cards = () => {
                     <Col xs={12} sm={12} md={6} xl={4}>
                         <Card className="nocard">
                             <Card.Img variant="top" src={egalite} />
+                            <div className="line-public" />
                             <Card.Body>
                                 <Card.Title>Formations secteur public</Card.Title>
                                 <Card.Text>
@@ -28,7 +29,6 @@ const Cards = () => {
                                 the card's content.
                                 </Card.Text>
                                 <Button variant="primary">Voir nos formations</Button>
-                                <div className="line-public" />
                             </Card.Body>
                         </Card>
                     </Col>
@@ -36,6 +36,7 @@ const Cards = () => {
                     <Col xs={12} sm={12} md={6} xl={4}>
                         <Card className="nocard">
                             <Card.Img variant="top" src={business} />
+                            <div className="line-prive" />
                             <Card.Body>
                                 <Card.Title>Formations secteur privé</Card.Title>
                                 <Card.Text>
@@ -43,7 +44,6 @@ const Cards = () => {
                                 the card's content.
                                 </Card.Text>
                                 <Button variant="primary">Voir nos formations</Button>
-                                <div className="line-prive" />
                             </Card.Body>
                         </Card>
                     </Col>
@@ -51,6 +51,7 @@ const Cards = () => {
                     <Col xs={12} sm={12} md={6} xl={4}>
                         <Card className="nocard">
                             <Card.Img variant="top" src={conseil} />
+                            <div className="line-conseil" />
                             <Card.Body className="card-body">
                                 <Card.Title>Conseil, étude et audit</Card.Title>
                                 <Card.Text>
@@ -58,7 +59,6 @@ const Cards = () => {
                                 the card's content.
                                 </Card.Text>
                                 <Button variant="primary">Voir nos formations</Button>
-                                <div className="line-conseil" />
                             </Card.Body>
                         </Card>
                     </Col>

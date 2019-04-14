@@ -1,0 +1,39 @@
+#contact {
+    margin-top: 70px;
+    background-color: #f5f5f5;
+}
+
+#form-global {
+    margin: 4vw;
+    text-align: left;
+}
+
+.submit-button {
+    background-color: #035913;
+    border: 0px;
+}
+
+.submit-button:hover {
+    background-color: darkcyan;
+}
+
+.form-control:focus {
+    border-color: #035913 !important;
+    box-shadow: 0 0 5px rgba(3, 89, 19, 1) !important;
+}
+
+.contact-row {
+    max-width: 100%;
+}
+
+.rightCol {
+    padding: 5.6vw 3vw 0vw 3vw;
+}
+
+.rightCol img {
+    width: 100%;
+}
+
+.rightCol .col {
+    padding: 0.3vw;
+}

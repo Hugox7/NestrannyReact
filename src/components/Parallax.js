@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { Parallax } from 'react-parallax';
 import { Button } from 'react-bootstrap';
 // import { Link } from 'react-router-dom';
@@ -11,11 +10,11 @@ const ParallaxComponent = () => {
         <div>
         <Parallax
             blur={0}
-            bgImage={require('../assets/conseiletude.jpg')}
+            bgImage={require('../assets/parallax.png')}
             bgImageAlt="the cat"
             strength={500}
         >
-            <div id="parallax-content" style={{ height: '600px' }}>
+            <div id="parallax-content" style={{ height: '700px' }}>
                 <h2>Formation et conseil</h2>
                 <p>pour optimiser vos ressources financières, faites-nous confiance !</p>
                 <Button className="devis-button">Demander un devis</Button>
