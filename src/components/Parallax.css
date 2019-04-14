@@ -1,5 +1,21 @@
 #parallax-content {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#parallax-content h2 {
+    color: darkcyan;
+    font-size: 55px;
+}
+
+#parallax-content p {
+    color: white;
+    font-size: 25px;
+    margin: 1vw 0vw 2vw 0vw;
+}
+
+.devis-button {
+    
 }
