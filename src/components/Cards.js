@@ -14,6 +14,7 @@ const Cards = () => {
     return (
         <div id="cards">
             <h2>Notre mission</h2>
+            <p className="text-mission">Donner aux élus et aux agents des collectivités locales, aux décideurs du secteur privé et aux responsables associatifs les moyens d’utiliser des outils adaptés à leurs besoins et d’en comprendre les enjeux.</p>
 
             <Container fluid={true}>
                 <Row>
@@ -23,10 +24,9 @@ const Cards = () => {
                             <Card.Img variant="top" src={egalite} />
                             <div className="line-public" />
                             <Card.Body>
-                                <Card.Title>Formations secteur public</Card.Title>
+                                <Card.Title>Formations Secteur Public</Card.Title>
                                 <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
+                                Dans un contexte de raréfaction des resssources des collectivités locales, nous vous proposons d'optimiser la gestion...
                                 </Card.Text>
                                 <Button variant="primary">Voir nos formations</Button>
                             </Card.Body>
@@ -38,10 +38,9 @@ const Cards = () => {
                             <Card.Img variant="top" src={business} />
                             <div className="line-prive" />
                             <Card.Body>
-                                <Card.Title>Formations secteur privé</Card.Title>
+                                <Card.Title>Formations Secteur Privé</Card.Title>
                                 <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
+                                Dans un contexte économique tendu, où la maîtrise des coûts et la pérennisation des marges restent des objectifs vitaux...
                                 </Card.Text>
                                 <Button variant="primary">Voir nos formations</Button>
                             </Card.Body>
@@ -53,12 +52,11 @@ const Cards = () => {
                             <Card.Img variant="top" src={conseil} />
                             <div className="line-conseil" />
                             <Card.Body className="card-body">
-                                <Card.Title>Conseil, étude et audit</Card.Title>
+                                <Card.Title>Conseils, études et audits</Card.Title>
                                 <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
+                                Face à la nécessité de maîtriser vos dépenses/chages et vos recettes / produits, nous vous proposons...
                                 </Card.Text>
-                                <Button variant="primary">Voir nos formations</Button>
+                                <Button variant="primary">Voir nos domaines de compétences</Button>
                             </Card.Body>
                         </Card>
                     </Col>
