@@ -12,7 +12,7 @@ const ParallaxComponent = () => {
             blur={0}
             bgImage={require('../assets/parallax.png')}
             bgImageAlt="the cat"
-            strength={500}
+            strength={600}
         >
             <div id="parallax-content" style={{ height: '700px' }}>
                 <h2>Formation et conseil</h2>

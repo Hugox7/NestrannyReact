@@ -28,7 +28,7 @@ const Cards = () => {
                                 <Card.Text>
                                 Dans un contexte de raréfaction des resssources des collectivités locales, nous vous proposons d'optimiser la gestion...
                                 </Card.Text>
-                                <Button variant="primary">Voir nos formations</Button>
+                                <Button className="cardButton">Voir nos formations</Button>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -42,7 +42,7 @@ const Cards = () => {
                                 <Card.Text>
                                 Dans un contexte économique tendu, où la maîtrise des coûts et la pérennisation des marges restent des objectifs vitaux...
                                 </Card.Text>
-                                <Button variant="primary">Voir nos formations</Button>
+                                <Button className="cardButton">Voir nos formations</Button>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -56,7 +56,7 @@ const Cards = () => {
                                 <Card.Text>
                                 Face à la nécessité de maîtriser vos dépenses/chages et vos recettes / produits, nous vous proposons...
                                 </Card.Text>
-                                <Button variant="primary">Voir nos domaines de compétences</Button>
+                                <Button className="cardButton">Voir nos domaines de compétences</Button>
                             </Card.Body>
                         </Card>
                     </Col>

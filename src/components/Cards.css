@@ -12,7 +12,7 @@
     /* position: absolute; */
     width: 100%;
     height: 6px;
-    background-color: green;
+    background-color: #035913;
     left: 0;
     bottom: 26.1vh;
 }
@@ -39,6 +39,7 @@
     text-align: left;
 }
 
+
 .text-mission {
         display: flex;
         flex-direction: column;
@@ -47,4 +48,12 @@
         margin-top: 10px;
         margin: 0 14vw 15px 14vw;
         font-size: 16px;
+
+.cardButton {
+    background-color: #035913 !important;
+    border: none !important;
+}
+
+.cardButton:hover {
+    background-color: darkcyan !important;
 }
