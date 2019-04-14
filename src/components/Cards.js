@@ -28,7 +28,7 @@ const Cards = () => {
                                 Some quick example text to build on the card title and make up the bulk of
                                 the card's content.
                                 </Card.Text>
-                                <Button variant="primary">Voir nos formations</Button>
+                                <Button className="cardButton">Voir nos formations</Button>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -43,7 +43,7 @@ const Cards = () => {
                                 Some quick example text to build on the card title and make up the bulk of
                                 the card's content.
                                 </Card.Text>
-                                <Button variant="primary">Voir nos formations</Button>
+                                <Button className="cardButton">Voir nos formations</Button>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -58,7 +58,7 @@ const Cards = () => {
                                 Some quick example text to build on the card title and make up the bulk of
                                 the card's content.
                                 </Card.Text>
-                                <Button variant="primary">Voir nos formations</Button>
+                                <Button className="cardButton">Voir nos formations</Button>
                             </Card.Body>
                         </Card>
                     </Col>

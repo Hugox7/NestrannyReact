@@ -8,7 +8,7 @@ import logo from '../assets/img/logo.jpeg';
 
 const Header = () => {
     return (
-        <div>
+        <div id="header">
             <Navbar collapseOnSelect expand="lg" bg="white" variant="white" fixed="top" className="navbar-center">
                 <Navbar.Brand><Link to="/"><img className="logo" src={logo} alt="nestranny logo"/></Link></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -34,7 +34,6 @@ const Header = () => {
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
-            <div id="header-line"/>
         </div>
     );
 }
