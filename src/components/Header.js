@@ -14,8 +14,8 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
-                    <Nav.Link> 
-                        <Link exact to="/">Accueil</Link>
+                    <Nav.Link href="/"> 
+                        Accueil
                     </Nav.Link> 
                     <NavDropdown title="Nos missions" id="collasible-nav-dropdown">
                         <NavDropdown.Item>
@@ -28,8 +28,8 @@ const Header = () => {
                             <Link to="/conseil-et-audit">Conseil, étude et audit</Link>
                         </NavDropdown.Item>
                     </NavDropdown>
-                    <Nav.Link> 
-                        <Link exact to="/contact">Contactez-nous</Link>
+                    <Nav.Link href="/contact"> 
+                        Contactez-nous
                     </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
