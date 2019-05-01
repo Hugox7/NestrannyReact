@@ -17,7 +17,6 @@ const ParallaxComponent = () => {
             <div id="parallax-content" style={{ height: '700px' }}>
                 <h2>Formation et conseil</h2>
                 <p>pour optimiser vos ressources financières, faites-nous confiance !</p>
-                <Button className="devis-button">Demander un devis</Button>
             </div>
         </Parallax>
         </div>
