@@ -10,13 +10,15 @@ const ParallaxComponent = () => {
         <div>
         <Parallax
             blur={0}
-            bgImage={require('../assets/parallax.png')}
+            bgImage={require('../assets/img/galery/image4.jpg')}
             bgImageAlt="the cat"
             strength={600}
         >
             <div id="parallax-content" style={{ height: '700px' }}>
-                <h2>Formation et conseil</h2>
-                <p>pour optimiser vos ressources financières, faites-nous confiance !</p>
+                <div id="cadre-parallax">
+                    <h2>Formation et conseil</h2>
+                    <p>pour optimiser vos ressources financières, faites-nous confiance !</p>
+                </div>
             </div>
         </Parallax>
         </div>
