@@ -1,6 +1,8 @@
 import React from 'react';
 import { Row, Col, Form, Button } from 'react-bootstrap';
 
+import MapComponent from '../components/MapComponent';
+
 import img1 from '../assets/img/galery/IMG_6667.JPG';
 import img2 from '../assets/img/galery/IMG_6737.JPG';
 import img3 from '../assets/img/galery/IMG_6755.JPG';
@@ -60,16 +62,22 @@ const Contact = () => {
                 </Col>
                 <Col xs={12} sm={12} md={6} className="rightCol">
                     <Row>
-                        <Col><img src={img1} alt="gallery-pic"/></Col>
-                        <Col><img src={img2} alt="gallery-pic"/></Col>
-                        <Col><img src={img3} alt="gallery-pic"/></Col>
+                        <MapComponent />
                     </Row>
                     <Row>
-                        <Col><img src={img4} alt="gallery-pic"/></Col>
-                        <Col><img src={img5} alt="gallery-pic"/></Col>
-                        <Col><img src={img6} alt="gallery-pic"/></Col>
+                        <div style={{ 
+                            width: "100%",
+                            marginTop: "25px",
+                            marginRight: "2vw;",
+                            backgroundColor: "white",
+                            height: "148px",
+                            display: "flex",
+                            padding: "10px"
+                        }}>
+                            <p>hello</p>
+                            <p>bye</p>
+                        </div>
                     </Row>
-                        
                 </Col>
             </Row>
         </div>
