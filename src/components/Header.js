@@ -17,7 +17,7 @@ const Header = () => {
                     <Nav.Link href="/"> 
                         Accueil
                     </Nav.Link> 
-                    <NavDropdown title="Nos missions" id="collasible-nav-dropdown">
+                    <NavDropdown title="Nos formations" id="collasible-nav-dropdown">
                         <NavDropdown.Item>
                             <Link to="/secteur-public">Formations secteur public</Link>
                         </NavDropdown.Item>
