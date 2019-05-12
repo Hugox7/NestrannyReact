@@ -9,6 +9,8 @@ import img3 from '../assets/img/galery/IMG_6755.JPG';
 import img4 from '../assets/img/galery/IMG_6764.JPG';
 import img5 from '../assets/img/galery/IMG_6767.JPG';
 import img6 from '../assets/img/galery/IMG_6772.JPG';
+import home from '../assets/home.png';
+import phone from '../assets/phone.png';
 
 
 import './Contact.css';
@@ -62,21 +64,29 @@ const Contact = () => {
                 </Col>
                 <Col xs={12} sm={12} md={6} className="rightCol">
                     <Row>
-                        <MapComponent />
+                        <Col xs={12} sm={12} md={5}>
+                            <div 
+                                style={{ 
+                                    display: "flex", 
+                                    flexDirection: "column" ,
+                                    justifyContent: "center",
+                                    alignItems: "left",
+                                }}
+                            >
+                                <div style={{ textAlign: "left", height: "100px", fontSize: "20px" }}>
+                                    <p><span>Nestranny Conseil</span><br/>38 bis rue du Général Leclerc<br />78570 Andrésy<br/>01 39 27 38 52</p>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col xs={12} sm={12} md={7}>
+                            <MapComponent />
+                        </Col>
+                        
                     </Row>
                     <Row>
-                        <div style={{ 
-                            width: "100%",
-                            marginTop: "25px",
-                            marginRight: "2vw;",
-                            backgroundColor: "white",
-                            height: "148px",
-                            display: "flex",
-                            padding: "10px"
-                        }}>
-                            <p>hello</p>
-                            <p>bye</p>
-                        </div>
+                        <Col><img src={img1} style={{ marginTop: "38px" }}/></Col>
+                        <Col><img src={img2} style={{ marginTop: "38px" }}/></Col>
+                        <Col><img src={img3} style={{ marginTop: "38px" }}/></Col>
                     </Row>
                 </Col>
             </Row>
