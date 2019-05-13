@@ -51,10 +51,11 @@
 }
 
 .cardButton {
-    background-color: darkcyan !important;
-    border: none !important;
+    color: #035913 !important;
+    border-color: #035913 !important;
 }
 
 .cardButton:hover {
     background-color: #035913 !important;
+    color: white !important;
 }

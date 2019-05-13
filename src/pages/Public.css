@@ -39,3 +39,14 @@
     width: 60vw;
     text-align: justify;
 }
+
+.theme-row {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+
+.formation {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
