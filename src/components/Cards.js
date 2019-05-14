@@ -54,7 +54,7 @@ const Cards = () => {
                             <Card.Body className="card-body">
                                 <Card.Title>Conseils, études et audits</Card.Title>
                                 <Card.Text>
-                                Face à la nécessité de maîtriser vos dépenses/chages et vos recettes / produits, nous vous proposons...
+                                Face à la nécessité de maîtriser vos dépenses/chages et vos recettes / produits, nous vous proposons de vous accompagner dgitans...
                                 </Card.Text>
                                 <Button className="cardButton" variant="outline-success">En savoir plus</Button>
                             </Card.Body>

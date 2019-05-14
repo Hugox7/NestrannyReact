@@ -1,7 +1,7 @@
 import React from 'react';
-import { Row, Col, Card, Container, Button } from 'react-bootstrap';
-// import { Link } from 'react-router-dom';
-import { publicBudgetData } from '../publicData';
+import { Row, Col, Card, Container, Button, Modal } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import { publicBudgetData, publicComptabiliteData } from '../publicData';
 import FormationsModal from '../components/FormationsModal';
 
 class Public extends React.Component {
@@ -44,26 +44,11 @@ class Public extends React.Component {
                         <Card bg="secondary" text="white">
                             <Card.Header>COMPTABILITE</Card.Header>
                             <Card.Body>
-                                <div className="formation">
-                                    <p>1 - Initiation aux finances locales</p>
-                                    <Button style={{ 'height': '40px' }} variant="secondary">Fiche</Button>
-                                </div> 
-                                <div className="formation">
-                                    <p>2 - La comptabilité d'engagement</p>
-                                    <Button style={{ 'height': '40px' }} variant="secondary">Fiche</Button>
-                                </div>
-                                <div className="formation">
-                                    <p>3 - La nomenclature comptable (M14, M57, M52, M71)</p>
-                                    <Button style={{ 'height': '40px' }} variant="secondary">Fiche</Button>
-                                </div>
-                                <div className="formation">
-                                    <p>4 - Les règles de recettes et d'avances</p>
-                                    <Button style={{ 'height': '40px' }} variant="secondary">Fiche</Button>
-                                </div>
-                                <div className="formation">
-                                    <p>5 - La gestion du patrimoine, "la gestion comptable"</p>
-                                    <Button style={{ 'height': '40px' }} variant="secondary">Fiche</Button>
-                                </div>   
+                            <Card.Text>
+                                 {publicComptabiliteData.map(formation => {
+                                     return <FormationsModal formation={formation} />
+                                 })} 
+                            </Card.Text>
                             </Card.Body>
                         </Card>
                     </Col>
