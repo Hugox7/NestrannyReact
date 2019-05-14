@@ -9,17 +9,20 @@ class FormationsModal extends React.Component {
     }
 
     render() {
-        const { formation } = this.props;
+        const formation = this.props.formation;
         console.log(formation);
 
         return (
-            <div key={formation.fiche} className="formation">
-                <p>{formation.fiche} - {formation.titre}</p>
+            <div className="formation">
+                <>{formation.fiche} - {formation.titre}</>
                 <Button onClick={() => this.setState({ show: true })}>Fiche</Button>
                 <Modal
                     show={this.state.show}
                     onHide={() => this.setState({ show: false })}
                     container={this}
+                    formation={formation}
+                    size={'lg'}
+                    style={{ color: 'black' }}
                 >
                     <Modal.Header>
                         <Modal.Title>

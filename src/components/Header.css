@@ -29,6 +29,8 @@ a:hover {
     background-repeat: no-repeat;
     background-size: 0% 3px;
     transition: background-size .3s;
+    display: flex;
+    align-items: center;
 }
 
 .nav-link:hover, .nav-link:focus {

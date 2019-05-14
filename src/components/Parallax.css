@@ -7,7 +7,7 @@
 
 #parallax-content h2 {
     color: darkcyan;
-    font-family: "Reem Kufi", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 700;
     /*text-shadow: -1px 0 black, 0 0.5px darkgrey;*/
     font-size: 60px;
@@ -18,7 +18,7 @@
     color: black;
     /*text-shadow: -1px 0 black, 0 1px black;*/
     margin-top: 0 !important;
-    font-family: "Reem Kufi", sans-serif;
+    font-family: "Questrial", sans-serif;
     font-size: 25px;
     margin: 1vw 0vw 1vw 0vw;
 }

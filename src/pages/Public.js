@@ -34,11 +34,9 @@ class Public extends React.Component {
                         <Card bg="primary" text="white">
                             <Card.Header>BUDGET</Card.Header>
                             <Card.Body>
-                                <Card.Text>
-                                       {publicBudgetData.map(formation => {
-                                           return <FormationsModal formation={formation} />
-                                       })}
-                                </Card.Text>
+                                {publicBudgetData.map((formation, index) => {
+                                    return <FormationsModal formation={formation} key={index} />
+                                })}
                             </Card.Body>
                         </Card>
                     </Col>
@@ -60,7 +58,6 @@ class Public extends React.Component {
                         <Card bg="success" text="white">
                             <Card.Header>CONTROLE DE GESTION</Card.Header>
                             <Card.Body>
-                            <Card.Text>
                                 <div className="formation">
                                     <p>1 - Les outils du contrôle de gestion</p>
                                     <Button style={{ 'height': '40px' }} variant="secondary">Fiche</Button>
@@ -81,7 +78,6 @@ class Public extends React.Component {
                                     <p>5 - La gestion du patrimoine, "la contrôle de gestion du patrimoine"</p>
                                     <Button style={{ 'height': '40px' }} variant="secondary">Fiche</Button>
                                 </div>   
-                            </Card.Text>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -89,7 +85,6 @@ class Public extends React.Component {
                         <Card bg="danger" text="white">
                             <Card.Header>MARCHES PUBLICS</Card.Header>
                             <Card.Body>
-                            <Card.Text>
                                 <div className="formation">
                                     <p>1 - L'exécution financière des marchés publics</p>
                                     <Button style={{ 'height': '40px' }} variant="secondary">Fiche</Button>
@@ -98,7 +93,6 @@ class Public extends React.Component {
                                     <p>2 - Les marchés à procédure adaptée</p>
                                     <Button style={{ 'height': '40px' }} variant="secondary">Fiche</Button>
                                 </div>
-                            </Card.Text>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -108,7 +102,6 @@ class Public extends React.Component {
                         <Card bg="warning" text="white">
                             <Card.Header>ANALYSE FINANCIERE</Card.Header>
                             <Card.Body>
-                            <Card.Text>
                                 <div className="formation">
                                     <p>1 - Le contrôle financier des associations</p>
                                     <Button style={{ 'height': '40px' }} variant="secondary">Fiche</Button>
@@ -117,7 +110,6 @@ class Public extends React.Component {
                                     <p>2 - Analyse et stratégie</p>
                                     <Button style={{ 'height': '40px' }} variant="secondary">Fiche</Button>
                                 </div>
-                            </Card.Text>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -125,25 +117,7 @@ class Public extends React.Component {
                 </Container>
                 
             
-                {/* <Link><div className="file-link">1 - Initiation aux finances locales</div></Link>
-                <Link><div className="file-link">2 - Comptabilité d'engagement</div></Link>
-                <Link><div className="file-link">3 - M14, Comptabilité communale</div></Link>
-                <Link><div className="file-link">4 - Les Autorisations de Programme et les crédits de Paiement (AP/CP)</div></Link>
-                <Link><div className="file-link">5 - Monter son budget de service</div></Link>
-                <Link><div className="file-link">6 - Le Débat d’Orientations Budgétaires (DOB)</div></Link>
-                <Link><div className="file-link">7 - Le budget du Service scolaire et de la Caisse des écoles</div></Link>
-                <Link><div className="file-link">8 - Le budget du Service enfance et de la petite enfance</div></Link>
-                <Link><div className="file-link">9 - Le budget des Services techniques</div></Link>
-                <Link><div className="file-link">10 - Les régies d'avances et de recettes</div></Link>
-                <Link><div className="file-link">11 - Les outils du contrôle de gestion</div></Link>
-                <Link><div className="file-link">12 - Les tableaux de bord</div></Link>
-                <Link><div className="file-link">13 - La comptabilité analytique et le calcul des coûts</div></Link>
-                <Link><div className="file-link">14 - Le guide des procédures</div></Link>
-                <Link><div className="file-link">15 - L'exécution financière des marchés publics</div></Link>
-                <Link><div className="file-link">16 - Les marchés à procédure adaptéeLes marchés à procédure adaptée (MAPA)</div></Link>
-                <Link><div className="file-link">18 - Le contrôle financier des associations</div></Link>
-                <Link><div className="file-link">19 - Analyse et stratégie financière</div></Link>
-                <Link><div className="file-link">20 - Elaborer le budget d’une commune de moins de 5.000 habitants</div></Link> */}
+                {/*<Link><div className="file-link">20 - Elaborer le budget d’une commune de moins de 5.000 habitants</div></Link> */}
             </div>
         );
     }
