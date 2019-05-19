@@ -20,13 +20,13 @@ const Header = () => {
                         </IndexLinkContainer>
                         <NavDropdown title="Nos missions" id="collasible-nav-dropdown"> 
                             <IndexLinkContainer to="/secteur-public">
-                                <NavDropdown.Item>Formations secteur public</NavDropdown.Item>
+                                <NavDropdown.Item>Formations Secteur public</NavDropdown.Item>
                             </IndexLinkContainer>
                             <IndexLinkContainer to="/secteur-prive">
-                                <NavDropdown.Item>Formations secteur privé</NavDropdown.Item>
+                                <NavDropdown.Item>Formations Secteur privé</NavDropdown.Item>
                             </IndexLinkContainer>
                             <IndexLinkContainer to="/conseil-et-audit">
-                                <NavDropdown.Item>Conseil, études et audits</NavDropdown.Item>
+                                <NavDropdown.Item>Conseil, Etudes et Audits</NavDropdown.Item>
                             </IndexLinkContainer>
                         </NavDropdown>
                         <IndexLinkContainer to="/contact">

@@ -25,7 +25,7 @@ class Public extends React.Component {
                 <div className="public-head">
                     <h2 className="title-public">Formations Secteur Public</h2>
                     <p className="text-public">Dans un contexte de raréfaction des ressources des collectivités locales, nous vous proposons d'optimiser la gestion financière de votre collectivité, et de mieux en maîtriser les différentes activités. Atteindre cet objectif passe par un renforcement des compétences des agents. C'est à cette fin que nous mettons en oeuvre des formations sur mesure, spécifiquement adaptées au public et à vos structures.</p>
-                    <p>Nous proposons 20 formations :</p>
+                    <p>Nous proposons 20 formations parmi les thèmes suivants :</p>
                 </div>
                 
                 <Container>
