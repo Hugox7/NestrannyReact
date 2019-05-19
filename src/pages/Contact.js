@@ -6,11 +6,11 @@ import MapComponent from '../components/MapComponent';
 import img1 from '../assets/img/galery/IMG_6667.JPG';
 import img2 from '../assets/img/galery/IMG_6737.JPG';
 import img3 from '../assets/img/galery/IMG_6755.JPG';
-import img4 from '../assets/img/galery/IMG_6764.JPG';
-import img5 from '../assets/img/galery/IMG_6767.JPG';
-import img6 from '../assets/img/galery/IMG_6772.JPG';
-import home from '../assets/home.png';
-import phone from '../assets/phone.png';
+// import img4 from '../assets/img/galery/IMG_6764.JPG';
+// import img5 from '../assets/img/galery/IMG_6767.JPG';
+// import img6 from '../assets/img/galery/IMG_6772.JPG';
+// import home from '../assets/home.png';
+// import phone from '../assets/phone.png';
 
 
 import './Contact.css';
@@ -84,9 +84,9 @@ const Contact = () => {
                         
                     </Row>
                     <Row>
-                        <Col><img src={img1} style={{ marginTop: "38px" }}/></Col>
-                        <Col><img src={img2} style={{ marginTop: "38px" }}/></Col>
-                        <Col><img src={img3} style={{ marginTop: "38px" }}/></Col>
+                        <Col><img src={img1} alt="decoration pic" style={{ marginTop: "38px" }}/></Col>
+                        <Col><img src={img2} alt="decoration pic" style={{ marginTop: "38px" }}/></Col>
+                        <Col><img src={img3} alt="decoration pic" style={{ marginTop: "38px" }}/></Col>
                     </Row>
                 </Col>
             </Row>
