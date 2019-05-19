@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import egalite from '../assets/img/egalite.jpg';
 import conseil from '../assets/img/conseil.JPG';
@@ -28,7 +28,7 @@ const Cards = () => {
                                 <Card.Text>
                                 Dans un contexte de raréfaction des resssources des collectivités locales, nous vous proposons d'optimiser la gestion...
                                 </Card.Text>
-                                <Button className="cardButton" variant="outline-success">En savoir plus</Button>
+                                <Link style={{ padding: 0 }} to="/secteur-public"><Button className="cardButton" variant="outline-success">En savoir plus</Button></Link>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -42,7 +42,7 @@ const Cards = () => {
                                 <Card.Text>
                                 Dans un contexte économique tendu, où la maîtrise des coûts et la pérennisation des marges restent des objectifs vitaux...
                                 </Card.Text>
-                                <Button className="cardButton" variant="outline-success">En savoir plus</Button>
+                                <Link style={{ padding: 0 }} to="/secteur-prive"></Link><Button className="cardButton" variant="outline-success">En savoir plus</Button>
                             </Card.Body>
                         </Card>
                     </Col>

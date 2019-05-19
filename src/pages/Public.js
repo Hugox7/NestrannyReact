@@ -1,8 +1,16 @@
 import React from 'react';
-import { Row, Col, Card, Container, Button, Modal } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-import { publicBudgetData, publicComptabiliteData } from '../publicData';
+import { Row, Col, Card, Container } from 'react-bootstrap';
+//import { Link } from 'react-router-dom';
+import { 
+    publicBudgetData, 
+    publicComptabiliteData, 
+    publicMarchepublicData, 
+    publicControlegestionData, 
+    publicAnalysefinanciereData,
+} from '../publicData';
 import FormationsModal from '../components/FormationsModal';
+import './Public.css';
+import publicPic from '../assets/public-section.jpg';
 
 class Public extends React.Component {
 
@@ -21,17 +29,45 @@ class Public extends React.Component {
 
     render() { 
         return (
-            <div className="public">
-                <div className="public-head">
-                    <h2 className="title-public">Formations Secteur Public</h2>
-                    <p className="text-public">Dans un contexte de raréfaction des ressources des collectivités locales, nous vous proposons d'optimiser la gestion financière de votre collectivité, et de mieux en maîtriser les différentes activités. Atteindre cet objectif passe par un renforcement des compétences des agents. C'est à cette fin que nous mettons en oeuvre des formations sur mesure, spécifiquement adaptées au public et à vos structures.</p>
-                    <p>Nous proposons 20 formations :</p>
+            <div className="public" style={{ paddingTop: '76px', backgroundColor: '#f5f5f5' }}>
+                <div id="public-head">
+                    <div id="public-text">
+                        <h2 className="title-public">Formations Secteur Public</h2>
+                        <div style={{ height: '2px',backgroundColor: 'white', width: '70%' }} />
+                        <p className="text-public">Dans un contexte de raréfaction des ressources des collectivités locales, nous vous proposons d'optimiser la gestion financière de votre collectivité, et de mieux en maîtriser les différentes activités. Atteindre cet objectif passe par un renforcement des compétences des agents. C'est à cette fin que nous mettons en oeuvre des formations sur mesure, spécifiquement adaptées au public et à vos structures.</p>
+                    </div>
+                    <div id="image-box">
+                        <img src={publicPic} />
+                    </div>
                 </div>
-                
-                <Container>
-                <Row>
-                    <Col className="theme-row" xs={12} sm={12} md={6}>
-                        <Card bg="primary" text="white">
+
+                <div id="content">
+                    <div id="aside">
+                        <h5>Nous proposons 20 formations divisées en 5 thèmes :</h5>
+                        <a href="#1">Contrôle de gestion</a>
+                        <a href="#2">Comptabilité</a>
+                        <a href="#3">Budget</a>
+                        <a href="#4">Marchés publics</a>
+                        <a href="#5">Analyse financière</a>
+                    </div>
+                    <div id="formations">
+                        <Card className="formations-card" id="1">
+                            <Card.Header>CONTROLE DE GESTION</Card.Header>
+                            <Card.Body>
+                                {publicControlegestionData.map(formation => {
+                                        return <FormationsModal formation={formation} />
+                                })} 
+                            </Card.Body>
+                        </Card>
+                        <Card className="formations-card" id="2">
+                            <Card.Header>COMPTABILITE</Card.Header>
+                            <Card.Body>
+                                {publicComptabiliteData.map(formation => {
+                                    return <FormationsModal formation={formation} />
+                                })} 
+                            </Card.Body>
+                        </Card>
+                        <Card className="formations-card" id="3">
                             <Card.Header>BUDGET</Card.Header>
                             <Card.Body>
                                 {publicBudgetData.map((formation, index) => {
@@ -39,85 +75,24 @@ class Public extends React.Component {
                                 })}
                             </Card.Body>
                         </Card>
-                    </Col>
-                    <Col className="theme-row" xs={12} sm={12} md={6}>
-                        <Card bg="secondary" text="white">
-                            <Card.Header>COMPTABILITE</Card.Header>
-                            <Card.Body>
-                            <Card.Text>
-                                 {publicComptabiliteData.map(formation => {
-                                     return <FormationsModal formation={formation} />
-                                 })} 
-                            </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col className="theme-row" xs={12} sm={12} md={6}>
-                        <Card bg="success" text="white">
-                            <Card.Header>CONTROLE DE GESTION</Card.Header>
-                            <Card.Body>
-                                <div className="formation">
-                                    <p>1 - Les outils du contrôle de gestion</p>
-                                    <Button style={{ 'height': '40px' }} variant="secondary">Fiche</Button>
-                                </div> 
-                                <div className="formation">
-                                    <p>2 - Les tableaux de bord</p>
-                                    <Button style={{ 'height': '40px' }} variant="secondary">Fiche</Button>
-                                </div>
-                                <div className="formation">
-                                    <p>3 - La comptabilité analytique et le calcul de coûts</p>
-                                    <Button style={{ 'height': '40px' }} variant="secondary">Fiche</Button>
-                                </div>
-                                <div className="formation">
-                                    <p>4 - Le guide des procédures comptables et financières</p>
-                                    <Button style={{ 'height': '40px' }} variant="secondary">Fiche</Button>
-                                </div>
-                                <div className="formation">
-                                    <p>5 - La gestion du patrimoine, "la contrôle de gestion du patrimoine"</p>
-                                    <Button style={{ 'height': '40px' }} variant="secondary">Fiche</Button>
-                                </div>   
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col className="theme-row" xs={12} sm={12} md={6}>
-                        <Card bg="danger" text="white">
+                        <Card className="formations-card" id="4">
                             <Card.Header>MARCHES PUBLICS</Card.Header>
                             <Card.Body>
-                                <div className="formation">
-                                    <p>1 - L'exécution financière des marchés publics</p>
-                                    <Button style={{ 'height': '40px' }} variant="secondary">Fiche</Button>
-                                </div> 
-                                <div className="formation">
-                                    <p>2 - Les marchés à procédure adaptée</p>
-                                    <Button style={{ 'height': '40px' }} variant="secondary">Fiche</Button>
-                                </div>
+                            {publicMarchepublicData.map(formation => {
+                                        return <FormationsModal formation={formation} />
+                                })} 
                             </Card.Body>
                         </Card>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col className="theme-row" xs={12} sm={12} md={{ span: 6, offset: 3 }}>
-                        <Card bg="warning" text="white">
+                        <Card className="formations-card" id="5">
                             <Card.Header>ANALYSE FINANCIERE</Card.Header>
                             <Card.Body>
-                                <div className="formation">
-                                    <p>1 - Le contrôle financier des associations</p>
-                                    <Button style={{ 'height': '40px' }} variant="secondary">Fiche</Button>
-                                </div> 
-                                <div className="formation">
-                                    <p>2 - Analyse et stratégie</p>
-                                    <Button style={{ 'height': '40px' }} variant="secondary">Fiche</Button>
-                                </div>
+                            {publicAnalysefinanciereData.map(formation => {
+                                        return <FormationsModal formation={formation} />
+                                })} 
                             </Card.Body>
                         </Card>
-                    </Col>
-                </Row>
-                </Container>
-                
-            
-                {/*<Link><div className="file-link">20 - Elaborer le budget d’une commune de moins de 5.000 habitants</div></Link> */}
+                    </div>
+                </div>
             </div>
         );
     }

@@ -13,8 +13,10 @@ const KeyFacts = () => {
             >
                 <div id="parallax-content" style={{ height: '600px' }}>
                     <div id="key-facts">
-                        <h2>Formation et conseil</h2>
-                        <p>pour optimiser vos ressources financières, faites-nous confiance !</p>
+                        <p>Nos chiffres clés !</p>
+                        <div id="chiffres">
+
+                        </div>
                     </div>
                 </div>
             </Parallax>

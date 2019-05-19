@@ -9,12 +9,16 @@
 }
 
 .submit-button {
-    background-color: #035913;
-    border: 0px;
+    background-color: white;
+    border: 1px solid #035913;
+    color: #035913;
 }
 
 .submit-button:hover {
-    background-color: darkcyan;
+    background-color: #035913;
+    border: 0px;
+    color: white;
+    border: 1px solid #035913;
 }
 
 .form-control:focus {

@@ -5,6 +5,7 @@ import Cards from '../components/Cards';
 // import Contact from '../components/Contact';
 import Picto from '../components/Picto';
 import KeyFacts from '../components/KeyFacts';
+import About from '../components/About';
 
 const Main = () => {
     return (
@@ -13,6 +14,7 @@ const Main = () => {
             <Cards />
             <Picto />
             <KeyFacts />
+            <About />
         </div>
     );
 }

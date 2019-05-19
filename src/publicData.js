@@ -4,7 +4,7 @@ export const publicBudgetData = [
         fiche: "1", /*ok*/
         section: "Budget",
         titre: "Les AP/CP - Autorisation de programme et les crédits de paiement",
-        durée: "2 jours",
+        duree: "2 jours",
         pedagogie: "Exposés, diaporamas et cas pratiques",
         public: "La loi du 6 février 1992 dite « Administration Territoriale de la République » prévoit, dans son article 50, la possibilité pour les collectivités territoriales de plus de 3.500 habitants de gérer les investissements directs sous forme d’Autorisations de Programme et de Crédits de Paiement. Cette formation s’adresse donc tout particulièrement aux élus, directeurs généraux de service, directeurs financiers, directeurs des services techniques des Communes de plus de 3.500 habitants.",
         objectifs: "Il s’agit ici d’appréhender les enjeux juridiques et financiers des Autorisations de Programme et des Crédits de Paiement, et d’acquérir une méthodologie pour la mise en place effective de cette procédure budgétaire et comptable. Les participants maîtriseront ainsi les différentes facettes de l’application des AP/CP.",
@@ -15,7 +15,7 @@ export const publicBudgetData = [
         fiche: "2", /*ok*/
         section: "Budget",
         titre: "Monter son budget de service",
-        durée: "3 jours",
+        duree: "3 jours",
         pedagogie: "Exposés, diaporamas et cas pratiques",
         public: "Ce stage est destiné aux directeurs et responsables de services désirant maîtriser la procédure budgétaire, et l’intégration du budget de service dans le budget général de la collectivité territoriale.",
         objectifs: "Il s’agit ici d’appréhender les enjeux juridiques et financiers des Autorisations de Programme et des Crédits de Paiement, et d’acquérir une méthodologie pour la mise en place effective de cette procédure budgétaire et comptable. Les participants maîtriseront ainsi les différentes facettes de l’application des AP/CP.",
@@ -26,7 +26,7 @@ export const publicBudgetData = [
         fiche: "3", /*ok*/
         section: "Budget",
         titre: "Le Débat d'Orientation Budgétaire",
-        durée: "2 jours",
+        duree: "2 jours",
         pedagogie: "Exposés, diaporamas et cas pratiques",
         public: "Ce stage s’adresse aux élus, directeurs généraux et directeurs financiers des Communes de plus de 3.500 habitants.",
         objectifs: "Concrétisé par la loi dite \"Administration Territoriale de la République\" du 6 février 1992, le Débat d'Orientation Budgétaire répond à une nécessité d'information des administrés, dans un souci de transparence. Au delà de la connaissance de cet objectif initial, les participants maîtriseront les enjeux juridiques de la tenue du D.O.B et ils disposeront d'une méthodologie de mise en place de cet outil de communication financière.",
@@ -37,7 +37,7 @@ export const publicBudgetData = [
         fiche: "4", /*ok*/
         section: "Budget",
         titre: "Le Budget d'un service scolaire et de la caisse des écoles",
-        durée: "2 jours",
+        duree: "2 jours",
         pedagogie: "Exposés, diaporamas et cas pratiques",
         public: "Cette formation s’adresse aux élus chargés des affaires scolaires mais également aux agents des services scolaires des Communes : responsables de service, régisseurs de recettes, et responsables de la caisse des écoles.",
         objectifs: "Après ce stage, les agents pourront disposer de l’ensemble des outils concrets de gestion d’un service scolaire : outils de préparation budgétaire, outils de suivi de l’exécution budgétaire, outils et principes des régies de recettes, tableaux de bord d’activité, tableaux de bord de coûts, outils de suivi de l’entretien des écoles, outils de suivi des cantines scolaires. Par ailleurs, les agents maîtriseront les principes de l’intégration du budget scolaire au sein du budget général de la collectivité. Enfin, le budget de la caisse des écoles sera abordé, de la préparation budgétaire jusqu’au vote.",
@@ -48,7 +48,7 @@ export const publicBudgetData = [
         fiche: "5", /*ok*/
         section: "Budget",
         titre: "Le Budget d'un service enfance et petite enfance",
-        durée: "3 jours",
+        duree: "3 jours",
         pedagogie: "Exposés, diaporamas et cas pratiques",
         public: "Cette formation est destinée aux élus, aux responsables des services de l’enfance et de la petite enfance, mais également aux responsables des crèches, des haltes-garderies, et des accueils de loisirs.",
         objectifs: "Au-delà de la maîtrise de la préparation budgétaire, les participants disposeront des principaux outils pour assurer la gestion comptable et budgétaire de leur service. À l’issue de la formation, ils cerneront les règles de l’exécution budgétaire, depuis l’engagement des dépenses de l’enfance jusqu’à la tenue de la régie de recettes et d’avances du service. Par ailleurs, les tableaux de bord du service seront appréhendés.",
@@ -58,7 +58,7 @@ export const publicBudgetData = [
     {
         fiche: "6", /*ok*/
         titre: "Budget des services techniques",
-        durée: "2 jours",
+        duree: "2 jours",
         pedagogie: "Exposés, diaporamas et cas pratiques",
         public: "Cette formation s’adresse aux directeurs des services techniques, mais également aux responsables de centres techniques municipaux (ou ateliers municipaux) et à tous les agents ayant des fonctions administratives et de comptabilité au sein des services techniques.",
         objectifs: "À l’issue de cette formation, les agents connaîtront l’impact des marges de manœuvre de leur collectivité locale sur le budget des services techniques. Chaque participant repartira de la session de formation avec des outils pour préparer le budget du service, mais également pour suivre l’exécution budgétaire tout au long de l’exercice. Enfin, des tableaux de bord de gestion pluriannuelle des équipements pourront être appliqués",
@@ -69,7 +69,7 @@ export const publicBudgetData = [
         fiche: "7", /*ok*/
         section: "Budget", 
         titre: "Élaborer le budget d'une commune de moins de 3.500 habitants",
-        durée: "3 jours",
+        duree: "3 jours",
         pedagogie: "Exposés, diaporamas et cas pratiques",
         public: "Cette formation s’adresse aux agents des Communes de moins de 3.500 habitants, devant préparer le budget de leur collectivité.",
         objectifs: "La session de formation permettra aux participants de disposer d’une méthodologie et des outils nécessaires à la préparation budgétaire dans le cadre de l’instruction comptable M14.",
@@ -94,7 +94,7 @@ export const publicComptabiliteData = [
         fiche: "2", /*ok*/
         section: "Comptabilité",
         titre: "La comptabilité d'engagement",
-        durée: "2 jours",
+        duree: "2 jours",
         pedagogie: "Exposés, diaporamas et cas pratiques",
         public: "Cette formation s'adresse en priorité aux agents des collectivités locales et établissements publics locaux ayant des fonctions comptables : ils peuvent s'occuper au sein de la chaine comptable des demandes d'achat, de l'engagement des dépenses, de la liquidation ou du mandatement.",
         objectifs: "La loi dite \"Administration Territoriale de la République\" du 6 février 1992 a rendu obligatoire la mise en place de la comptablilité d'engagement dans les collectivités locales. Les agents devront, à l'issue de cette formation, cerner l'environnement juridique de l'engagement des dépenses et des recettes. Par ailleurs, le enjeux et les objectifs de cette comptabilité seront maîtrisés. Au-delà, cette formation permettra surtout d'apprécier les modalités de mise en place de ces outils et l'adaptation de l'organisation comptable de la collectivité pour répondre à ces objectifs.",
@@ -114,8 +114,9 @@ export const publicComptabiliteData = [
     },
     {
         fiche: "4", /*ok*/
+        section: "Comptabilité",
         titre: "Les régies d'avances et de recettes",
-        durée: "2 jours",
+        duree: "2 jours",
         pedagogie: "Exposés, diaporamas et cas pratiques",
         public: "Cette formation s’adresse aux agents des collectivités locales susceptibles de devenir régisseurs, mais également aux régisseurs en place désirant mieux appréhender l’environnement juridique de leur régie.",
         objectifs: "Cette formation permettra à chacun de comprendre les avantages de la gestion d’une activité municipale dans le cadre des régies, mais surtout de maîtriser les risques juridiques liés au maniement des deniers publics. Elle fournira aussi aux participants les outils concrets pour la mise en œuvre de ces régies.",
@@ -140,7 +141,7 @@ export const publicComptabiliteData = [
             fiche: "1", /*ok*/
             section: "Contrôle de gestion",
             titre: "Les outils du controle de gestion",
-            durée: "3 jours",
+            duree: "3 jours",
             pedagogie: "Exposés, diaporamas et cas pratiques",
             public: "Cette formation s’adresse à tous les agents des collectivités locales impliqués dans la gestion budgétaire et comptable des services : directeurs financiers, contrôleurs de gestion, conseillers de gestion, mais également directeurs des services techniques, responsables des centres techniques municipaux, et plus généralement tous les responsables des services opérationnels.",
             objectifs: "Les participants appréhenderont les enjeux organisationnels et financiers de la mise en place d’un véritable contrôle de gestion dans leur structure. Ils disposeront alors d’une palette d’outils et d’une méthodologie leur permettant de mettre en œuvre une procédure de contrôle de gestion dans leur collectivité.",
@@ -198,7 +199,7 @@ export const publicComptabiliteData = [
                 fiche: "1", /*ok*/
                 section: "Contrôle de gestion",
                 titre: "L'exécution financière des marchés publics",
-                durée: "3 jours",
+                duree: "3 jours",
                 pedagogie: "Exposés, diaporamas et cas pratiques",
                 public: "Les agents des services comptables et financiers (et tout agent en charge du suivi financier des marchés publics), doivent maîtriser la chaîne comptable et financière, depuis l’engagement des marchés jusqu’au paiement des soldes. Pour ces agents, une mise à plat de la procédure est donc indispensable afin de s’assurer de la fluidité des réalisations et des paiements liés aux marchés publics, d’autant plus que le Code des Marchés Publics évolue régulièrement.",
                 objectifs: "À l’issue de la formation, les participants disposeront des outils concrets et de la méthodologie leur permettant d’organiser efficacement le suivi financier des marchés publics de la collectivité.Ils maîtriseront et mettront en œuvre l’exécution financière des marchés publics, dans le respect des règles de paiement qui leur sont appliquées. Les agents concernés appliqueront les règles du mandatement des factures sur les marchés publics, en maîtrisant sa forme.",
@@ -209,7 +210,7 @@ export const publicComptabiliteData = [
                 fiche: "2", /*ok*/
                 section: "Contrôle de gestion",
                 titre: "Les marchés à procédure adaptée",
-                durée: "2 jours",
+                duree: "2 jours",
                 pedagogie: "Exposés, diaporamas et cas pratiques",
                 public: "Les agents des collectivités locales, et notamment les acheteurs publics, doivent maîtriser les principes de la commande publique, et notamment les nombreux cas de figure pour lesquels, sans recourir nécessairement à une procédure formalisée d'appels d'offres, un marché à procédure adapté pourra être mise en place.",
                 objectifs: "À l’issue de la formation, les participants disposeront des clés conceptuelles et des outils pratiques de mise en place et de suivi administratif et financier des marchés à procédure adaptée.",
@@ -224,7 +225,7 @@ export const publicComptabiliteData = [
             fiche: "1", /*ok*/
             section: "Analyse financière",
             titre: "Le contrôle financier des associations",
-            durée: "3 jours",
+            duree: "3 jours",
             pedagogie: "Exposés, diaporamas et cas pratiques",
             public: "Cette formation s’adresse aux responsables des services financiers des collectivités locales, mais également aux responsables de services chargés du suivi des associations subventionnées par la ville (services « culture », « jeunesse », « sports », « affaires sociales », « prévention »…).",
             objectifs: "L’objectif premier de cette formation est de fournir aux participants les connaissances comptables, financières, et juridiques de base pour leur permettre d’appréhender les risques liés aux associations subventionnées. Par ailleurs, les participants disposeront d’un outil concret pour apprécier ce risque sur leur structure, afin de fournir une véritable aide à la décision pour les élus.",
@@ -235,7 +236,7 @@ export const publicComptabiliteData = [
             fiche: "2", /*ok*/ 
             section: "Analyse financière",
             titre: "Analyse et stratégie financière",
-            durée: "3 jours",
+            duree: "3 jours",
             pedagogie: "Exposés, diaporamas et cas pratiques",
             public: "Les directeurs financiers des collectivités locales, mais également les directeurs généraux des services doivent maîtriser l’évolution financière de leur structure pour les années à venir. Cette formation s’adresse donc à eux, mais également à tous les agents en formation initiale devant connaître les marges de manœuvre financières de leur collectivité.",
             objectifs: "À l’issue de cette formation, les participants cerneront intégralement les bases du cadre budgétaire et comptable. Ils sauront mettre en œuvre une analyse financière rétrospective et définir une prospective budgétaire. Mais ils disposeront surtout d’une méthodologie et d’un outil concret d’analyse financière pouvant être adapté et appliqué dans leur collectivité locale.",
