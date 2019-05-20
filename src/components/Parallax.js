@@ -16,8 +16,7 @@ const ParallaxComponent = () => {
                 <div id="cadre-parallax">
                     <div>
                         <h2>Formation et conseil</h2>
-                        <p>pour optimiser vos ressources financières</p>
-                        <p>" Votre réussite, notre savoir-faire "</p>
+                        <p>Construisons ensemble un système performant d'analyse de gestion</p>
                     </div>
                 </div>
             </div>
