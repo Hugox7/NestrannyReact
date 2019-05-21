@@ -7,14 +7,30 @@
 
 #parallax-content h2 {
     color: darkcyan;
-    font-size: 55px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    /*text-shadow: -1px 0 black, 0 0.5px darkgrey;*/
+    font-size: 60px;
+    margin-bottom: 0;
 }
 
 #parallax-content p {
-    color: white;
+    color: black;
+    /*text-shadow: -1px 0 black, 0 1px black;*/
+    margin-top: 0 !important;
+    font-family: "Questrial", sans-serif;
     font-size: 25px;
-    margin: 1vw 0vw 2vw 0vw;
+    margin: 1vw 0vw 1vw 0vw;
 }
+
+#cadre-parallax {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px 40px 10px 40px;
+} 
 
 .devis-button {
     

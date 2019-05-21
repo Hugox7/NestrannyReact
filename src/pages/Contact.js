@@ -1,12 +1,16 @@
 import React from 'react';
 import { Row, Col, Form, Button } from 'react-bootstrap';
 
+import MapComponent from '../components/MapComponent';
+
 import img1 from '../assets/img/galery/IMG_6667.JPG';
 import img2 from '../assets/img/galery/IMG_6737.JPG';
 import img3 from '../assets/img/galery/IMG_6755.JPG';
-import img4 from '../assets/img/galery/IMG_6764.JPG';
-import img5 from '../assets/img/galery/IMG_6767.JPG';
-import img6 from '../assets/img/galery/IMG_6772.JPG';
+// import img4 from '../assets/img/galery/IMG_6764.JPG';
+// import img5 from '../assets/img/galery/IMG_6767.JPG';
+// import img6 from '../assets/img/galery/IMG_6772.JPG';
+// import home from '../assets/home.png';
+// import phone from '../assets/phone.png';
 
 
 import './Contact.css';
@@ -60,16 +64,30 @@ const Contact = () => {
                 </Col>
                 <Col xs={12} sm={12} md={6} className="rightCol">
                     <Row>
-                        <Col><img src={img1} alt="gallery-pic"/></Col>
-                        <Col><img src={img2} alt="gallery-pic"/></Col>
-                        <Col><img src={img3} alt="gallery-pic"/></Col>
+                        <Col xs={12} sm={12} md={5}>
+                            <div 
+                                style={{ 
+                                    display: "flex", 
+                                    flexDirection: "column" ,
+                                    justifyContent: "center",
+                                    alignItems: "left",
+                                }}
+                            >
+                                <div style={{ textAlign: "left", height: "100px", fontSize: "20px" }}>
+                                    <p><span>Nestranny Conseil</span><br/>38 bis rue du Général Leclerc<br />78570 Andrésy<br/>01 39 27 38 52</p>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col xs={12} sm={12} md={7}>
+                            <MapComponent />
+                        </Col>
+                        
                     </Row>
                     <Row>
-                        <Col><img src={img4} alt="gallery-pic"/></Col>
-                        <Col><img src={img5} alt="gallery-pic"/></Col>
-                        <Col><img src={img6} alt="gallery-pic"/></Col>
+                        <Col><img src={img1} alt="decoration pic" style={{ marginTop: "38px" }}/></Col>
+                        <Col><img src={img2} alt="decoration pic" style={{ marginTop: "38px" }}/></Col>
+                        <Col><img src={img3} alt="decoration pic" style={{ marginTop: "38px" }}/></Col>
                     </Row>
-                        
                 </Col>
             </Row>
         </div>

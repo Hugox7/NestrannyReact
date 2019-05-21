@@ -47,14 +47,20 @@
         align-items: center;
         margin-top: 10px;
         margin: 0 14vw 15px 14vw;
-        font-size: 16px;
+        font-size: 20px;
+        font-family: "Open-sans", sans-serif;
 }
 
 .cardButton {
-    background-color: #035913 !important;
-    border: none !important;
+    color: #035913 !important;
+    border-color: #035913 !important;
 }
 
 .cardButton:hover {
-    background-color: darkcyan !important;
+    background-color: #035913 !important;
+    color: white !important;
+}
+
+.card.Title {
+    font-weight: bold;
 }

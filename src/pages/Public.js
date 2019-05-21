@@ -1,38 +1,101 @@
 import React from 'react';
-import { Row, Col } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-
+import { Row, Col, Card, Container } from 'react-bootstrap';
+//import { Link } from 'react-router-dom';
+import { 
+    publicBudgetData, 
+    publicComptabiliteData, 
+    publicMarchepublicData, 
+    publicControlegestionData, 
+    publicAnalysefinanciereData,
+} from '../publicData';
+import FormationsModal from '../components/FormationsModal';
 import './Public.css';
+import publicPic from '../assets/public-section.jpg';
 
-const Public = () => {
-    return (
-        <div className="public">
-            <div className="public-head">
-                <h2 className="title-public">Formations Secteur Public</h2>
-                <p className="text-public">Dans un contexte de raréfaction des ressources des collectivités locales, nous vous proposons d'optimiser la gestion financière de votre collectivité, et de mieux en maîtriser les différentes activités. Atteindre cet objectif passe par un renforcement des compétences des agents. C'est à cette fin que nous mettons en oeuvre des formations sur mesure, spécifiquement adaptées au public et à vos structures.</p>
-                <p>Nous proposons 20 formations :</p>
+class Public extends React.Component {
+
+    state = {
+        show: false,
+    }
+
+    handleClose() {
+        this.setState({ show: false });
+    }
+    
+    handleShow() {
+        this.setState({ show: true });
+    }
+    
+
+    render() { 
+        return (
+            <div className="public" style={{ paddingTop: '76px', backgroundColor: '#f5f5f5' }}>
+                <div id="public-head">
+                    <div id="public-text">
+                        <h2 className="title-public">Formations Secteur Public</h2>
+                        <div style={{ height: '2px',backgroundColor: 'white', width: '70%' }} />
+                        <p className="text-public">Dans un contexte de raréfaction des ressources des collectivités locales, nous vous proposons d'optimiser la gestion financière de votre collectivité, et de mieux en maîtriser les différentes activités. Atteindre cet objectif passe par un renforcement des compétences des agents. C'est à cette fin que nous mettons en oeuvre des formations sur mesure, spécifiquement adaptées au public et à vos structures.</p>
+                    </div>
+                    <div id="image-box">
+                        <img src={publicPic} />
+                    </div>
+                </div>
+
+                <div id="content">
+                    <div id="aside">
+                        <h5>Nous proposons 20 formations divisées en 5 thèmes :</h5>
+                        <a href="#1">Contrôle de gestion</a>
+                        <a href="#2">Comptabilité</a>
+                        <a href="#3">Budget</a>
+                        <a href="#4">Marchés publics</a>
+                        <a href="#5">Analyse financière</a>
+                    </div>
+                    <div id="formations">
+                        <Card className="formations-card" id="1">
+                            <Card.Header>CONTROLE DE GESTION</Card.Header>
+                            <Card.Body>
+                                {publicControlegestionData.map(formation => {
+                                        return <FormationsModal formation={formation} />
+                                })} 
+                            </Card.Body>
+                        </Card>
+                        <Card className="formations-card" id="2">
+                            <Card.Header>COMPTABILITE</Card.Header>
+                            <Card.Body>
+                                {publicComptabiliteData.map(formation => {
+                                    return <FormationsModal formation={formation} />
+                                })} 
+                            </Card.Body>
+                        </Card>
+                        <Card className="formations-card" id="3">
+                            <Card.Header>BUDGET</Card.Header>
+                            <Card.Body>
+                                {publicBudgetData.map((formation, index) => {
+                                    return <FormationsModal formation={formation} key={index} />
+                                })}
+                            </Card.Body>
+                        </Card>
+                        <Card className="formations-card" id="4">
+                            <Card.Header>MARCHES PUBLICS</Card.Header>
+                            <Card.Body>
+                            {publicMarchepublicData.map(formation => {
+                                        return <FormationsModal formation={formation} />
+                                })} 
+                            </Card.Body>
+                        </Card>
+                        <Card className="formations-card" id="5">
+                            <Card.Header>ANALYSE FINANCIERE</Card.Header>
+                            <Card.Body>
+                            {publicAnalysefinanciereData.map(formation => {
+                                        return <FormationsModal formation={formation} />
+                                })} 
+                            </Card.Body>
+                        </Card>
+                    </div>
+                </div>
             </div>
-            <Link><div className="file-link">1 - Initiation aux finances locales</div></Link>
-            <Link><div className="file-link">2 - Comptabilité d'engagement</div></Link>
-            <Link><div className="file-link">3 - M14, Comptabilité communale</div></Link>
-            <Link><div className="file-link">4 - Les Autorisations de Programme et les crédits de Paiement (AP/CP)</div></Link>
-            <Link><div className="file-link">5 - Monter son budget de service</div></Link>
-            <Link><div className="file-link">6 - Le Débat d’Orientations Budgétaires (DOB)</div></Link>
-            <Link><div className="file-link">7 - Le budget du Service scolaire et de la Caisse des écoles</div></Link>
-            <Link><div className="file-link">8 - Le budget du Service enfance et de la petite enfance</div></Link>
-            <Link><div className="file-link">9 - Le budget des Services techniques</div></Link>
-            <Link><div className="file-link">10 - Les régies d'avances et de recettes</div></Link>
-            <Link><div className="file-link">11 - Les outils du contrôle de gestion</div></Link>
-            <Link><div className="file-link">12 - Les tableaux de bord</div></Link>
-            <Link><div className="file-link">13 - La comptabilité analytique et le calcul des coûts</div></Link>
-            <Link><div className="file-link">14 - Le guide des procédures</div></Link>
-            <Link><div className="file-link">15 - L'exécution financière des marchés publics</div></Link>
-            <Link><div className="file-link">16 - Les marchés à procédure adaptéeLes marchés à procédure adaptée (MAPA)</div></Link>
-            <Link><div className="file-link">18 - Le contrôle financier des associations</div></Link>
-            <Link><div className="file-link">19 - Analyse et stratégie financière</div></Link>
-            <Link><div className="file-link">20 - Elaborer le budget d’une commune de moins de 5.000 habitants</div></Link>
-        </div>
-    );
+        );
+    }
 };
 
 export default Public;

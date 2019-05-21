@@ -1,6 +1,7 @@
 import React from 'react';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap'
 import { Link } from 'react-router-dom';
+import { IndexLinkContainer } from 'react-router-bootstrap';
 
 import './Header.css';
 
@@ -14,23 +15,23 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
-                    <Nav.Link href="/"> 
-                        Accueil
-                    </Nav.Link> 
-                    <NavDropdown title="Nos missions" id="collasible-nav-dropdown">
-                        <NavDropdown.Item>
-                            <Link to="/secteur-public">Formations secteur public</Link>
-                        </NavDropdown.Item>
-                        <NavDropdown.Item>
-                            <Link to="/secteur-prive">Formations secteur privé</Link>
-                        </NavDropdown.Item>
-                        <NavDropdown.Item>
-                            <Link to="/conseil-et-audit">Conseil, étude et audit</Link>
-                        </NavDropdown.Item>
-                    </NavDropdown>
-                    <Nav.Link href="/contact"> 
-                        Contactez-nous
-                    </Nav.Link>
+                        <IndexLinkContainer exact to="/">
+                            <Nav.Link>Accueil</Nav.Link> 
+                        </IndexLinkContainer>
+                        <NavDropdown title="Nos missions" id="collasible-nav-dropdown"> 
+                            <IndexLinkContainer to="/secteur-public">
+                                <NavDropdown.Item>Formations secteur public</NavDropdown.Item>
+                            </IndexLinkContainer>
+                            <IndexLinkContainer to="/secteur-prive">
+                                <NavDropdown.Item>Formations secteur privé</NavDropdown.Item>
+                            </IndexLinkContainer>
+                            <IndexLinkContainer to="/conseil-et-audit">
+                                <NavDropdown.Item>Conseil, études et audits</NavDropdown.Item>
+                            </IndexLinkContainer>
+                        </NavDropdown>
+                        <IndexLinkContainer to="/contact">
+                            <Nav.Link>Contactez-nous</Nav.Link>
+                        </IndexLinkContainer>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
