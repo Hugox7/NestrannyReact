@@ -57,7 +57,7 @@ class FormationsModal extends React.Component {
                         <div id="content">
                             <h4>Public</h4>
                             <p>{formation.public}</p>
-                            <h4>Objectifs</h4>
+                            <h4>Objectif</h4>
                             <p>{formation.objectifs}</p>
                             <h4>Contenu</h4>
                             <ul>
