@@ -16,7 +16,14 @@ class FormationsModal extends React.Component {
         const formation = this.props.formation;
         console.log(formation);
 
-        let style;
+        let className;
+        if (formation.formation === 'secteur public') {
+            className="public-sheets"
+        } else if (formation.formation === 'secteur privé') {
+            className="prive-sheets"
+        } else {
+            className='conseil'
+        }
 
         return (
             <div className="formation">
@@ -31,7 +38,7 @@ class FormationsModal extends React.Component {
                     style={{ color: 'black' }}
                 >
                     <Modal.Header>
-                        <div className="bubble">
+                        <div className={`bubble ${className}`}>
                             <span>FICHE</span>
                             <span>0{formation.fiche}</span>
                         </div>
@@ -57,11 +64,11 @@ class FormationsModal extends React.Component {
                             </div>
                         </div>
                         <div id="content">
-                            <h4>Public</h4>
+                            <h4 className={className}>Public</h4>
                             <p>{formation.public}</p>
-                            <h4>Objectifs</h4>
+                            <h4 className={className}>Objectif</h4>
                             <p>{formation.objectifs}</p>
-                            <h4>Contenu</h4>
+                            <h4 className={className}>Contenu</h4>
                             <ul>
                                 {formation.contenu.map(elem => <li>{elem}</li>)}
                             </ul>

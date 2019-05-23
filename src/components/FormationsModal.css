@@ -18,7 +18,7 @@
 .bubble {
     height: 65px;
     width: 130px;
-    background-color: #035913;
+    /* background-color: #035913; */
     color: white;
     margin-bottom: 15px;
     border-radius: 0 0 70px 70px;
@@ -52,7 +52,7 @@
     display: flex;
     justify-content: space-between;
     background-color: #f5f5f5;
-    padding-bottom: 15px;
+    padding: 15px;
 }
 
 #formation-sum p {
@@ -67,25 +67,34 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    text-align: center;
     margin-top: 15px;
+    padding:  0px 50px;
 }
 
 .formation-picto img {
     margin-bottom: 10px;
 }
 
+.formation-picto p {
+    text-align: center;
+}
+
 #content {
-    padding: 20px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
 }
 
+#content p {
+    text-align: justify;
+}
+
 #content h4 {
-    background-color: #035913;
+    /* background-color: #035913; */
     color: white;
     padding: 3px 3px 3px 8px;
     font-size: 22px;
+    border-radius: 4px;
      
 }
 
@@ -97,4 +106,12 @@
 .modal-button:hover {
     background-color: #035913 !important;
     color: white !important;
+}
+
+.public-sheets {
+    background-color: #035913;
+}
+
+.prive-sheets {
+    background-color: darkcyan;
 }

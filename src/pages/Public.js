@@ -50,7 +50,7 @@ class Public extends React.Component {
                         <a href="#4">Marchés publics</a>
                         <a href="#5">Analyse financière</a>
                     </div>
-                    <div id="formations">
+                    <div id="formations-container">
                         <Card className="formations-card" id="1">
                             <Card.Header>CONTROLE DE GESTION</Card.Header>
                             <Card.Body>

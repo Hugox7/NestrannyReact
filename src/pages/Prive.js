@@ -39,7 +39,7 @@ class Prive extends React.Component {
                     </div>
                     <div id="formations">
                         <Card className="formations-card" id="1">
-                            <Card.Header>CONTROLE DE GESTION</Card.Header>
+                            <Card.Header>FONDAMENTAUX DE GESTION</Card.Header>
                             <Card.Body>
                                 {priveFondamentauxData.map(formation => {
                                         return <FormationsModal formation={formation} />
@@ -47,7 +47,7 @@ class Prive extends React.Component {
                             </Card.Body>
                         </Card>
                         <Card className="formations-card" id="2">
-                            <Card.Header>COMPTABILITE</Card.Header>
+                            <Card.Header>MARCHES PUBLICS</Card.Header>
                             <Card.Body>
                                 {priveMarchepublicData.map(formation => {
                                     return <FormationsModal formation={formation} />
@@ -55,7 +55,7 @@ class Prive extends React.Component {
                             </Card.Body>
                         </Card>
                         <Card className="formations-card" id="3">
-                            <Card.Header>BUDGET</Card.Header>
+                            <Card.Header>ANALYSE DE GESTION</Card.Header>
                             <Card.Body>
                                 {priveAnalyseData.map((formation, index) => {
                                     return <FormationsModal formation={formation} key={index} />
