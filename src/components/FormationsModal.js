@@ -16,6 +16,8 @@ class FormationsModal extends React.Component {
         const formation = this.props.formation;
         console.log(formation);
 
+        let style;
+
         return (
             <div className="formation">
                 <>{formation.fiche} - {formation.titre}</>
