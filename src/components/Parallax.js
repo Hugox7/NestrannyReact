@@ -8,7 +8,7 @@ const ParallaxComponent = () => {
         <div>
         <Parallax
             blur={0}
-            bgImage={require('../assets/img/galery/image1bis.jpg')}
+            bgImage={require('../assets/img/galery/image1bislight.jpg')}
             bgImageAlt="the cat"
             strength={600}
         >
