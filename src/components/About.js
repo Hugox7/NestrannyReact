@@ -2,8 +2,8 @@ import React from 'react';
 import imageAbout from '../assets/img/galery/imageabout.jpg';
 import { Row, Col, Card, Container } from 'react-bootstrap';
 import './About.css';
-import steph from '../assets/img/galery/steph-carre.png';
-import regis from '../assets/img/galery/regis-carre.png';
+import steph from '../assets/img/galery/steph6.jpg';
+import regis from '../assets/img/galery/regis1.jpg';
 
 const About = () => {
     return (
@@ -18,6 +18,17 @@ const About = () => {
             </Col>
             <Col xs={12} sm={12} md={6} className="about-column">
                 <Row>
+                <Col xs={12} sm={12} md={6} >
+                        <div className="steph">
+                            <div className="selfie-wrapper">
+                                <img src={steph} />                           
+                            </div>
+                            <div className="text-steph">
+                                <h4>Stéphane Lefebvre</h4>
+                                <p>"Faire de notre expertise de la gestion financière <br /> une force pour vous apporter <br />notre savoir-faire"</p>
+                            </div>
+                        </div>
+                    </Col>
                     <Col xs={12} sm={12} md={6} >
                         <div className="regis">
                             <div className="selfie-wrapper">
@@ -27,17 +38,6 @@ const About = () => {
                                 <h4>Régis Trichard</h4> 
                                 <p>"Mettre notre énergie et notre écoute au service d’une pédagogie active pour une gestion opérationnelle immédiate"</p>
                             </div>                           
-                        </div>
-                    </Col>
-                    <Col xs={12} sm={12} md={6} >
-                        <div className="steph">
-                            <div className="selfie-wrapper">
-                                <img src={steph} />                           
-                            </div>
-                            <div className="text-steph">
-                                <h4>Stéphane Lefebvre</h4>
-                                <p>"Faire de notre expertise de la gestion financière une force pour vous apporter notre savoir-faire"</p>
-                            </div>
                         </div>
                     </Col>
                 </Row>
