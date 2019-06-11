@@ -35,9 +35,9 @@ const KeyFacts = () => {
                                 <p>Effectif moyen <br/>par formation</p>
                             </div>
                             <div className="fact">
-                                <h5>2</h5>
+                                <h5>98%</h5>
                                 <div style={{ height: '3px', width: '70%', backgroundColor: 'darkcyan', margin: '15px 0' }} />
-                                <p>Durée moyenne de formation en jours</p>
+                                <p>Taux <br/>de satisfaction</p>
                             </div>
                         </div>
                     </div>

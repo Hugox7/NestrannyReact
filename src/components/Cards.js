@@ -13,7 +13,7 @@ import './Cards.css';
 const Cards = () => {
     return (
         <div id="cards">
-            <h2>Notre mission</h2>
+            <h2 className="titre-mission"> Notre mission</h2>
             <p className="text-mission">Donner aux élus et aux agents des collectivités locales, aux décideurs du secteur privé et aux responsables associatifs les moyens d’utiliser des outils adaptés à leurs besoins et d’en comprendre les enjeux.</p>
 
             <Container fluid={true}>

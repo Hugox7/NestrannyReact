@@ -39,6 +39,9 @@
     text-align: left;
 }
 
+.titre-mission {
+    font-family: "Questrial", sans-serif;
+}
 
 .text-mission {
         display: flex;
@@ -48,7 +51,7 @@
         margin-top: 10px;
         margin: 0 14vw 15px 14vw;
         font-size: 20px;
-        font-family: "Open-sans", sans-serif;
+        font-family: "Roboto", sans-serif;
 }
 
 .cardButton {

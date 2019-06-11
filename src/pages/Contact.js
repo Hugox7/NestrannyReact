@@ -18,6 +18,10 @@ import './Contact.css';
 const Contact = () => {
     return(
         <div id="contact">
+            <div className="text-contact">
+                <p>Vous souhaitez établir un devis ou poser une question, n'hésitez pas à utiliser le formulaire.<br/>Nous vous recontacterons rapidement<br/></p>
+            </div>
+
             <Row className="contact-row">
                 <Col xs={12} sm={12} md={6} id= "left-col">
                     <div id="form-global">
@@ -75,6 +79,7 @@ const Contact = () => {
                             >
                                 <div style={{ textAlign: "left", height: "100px", fontSize: "20px" }}>
                                     <p><span>Nestranny Conseil</span><br/>38 bis rue du Général Leclerc<br />78570 Andrésy<br/>01 39 27 38 52</p>
+                                    <p>Suivez-nous sur les réseaux sociaux</p>
                                 </div>
                             </div>
                         </Col>
