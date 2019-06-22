@@ -41,9 +41,16 @@ class Public extends React.Component {
                     </div>
                 </div>
 
+                <div id="public-head-mobile">
+                    <div id="public-text-mobile">
+                        <h2 className="title-public">Formations Secteur Public</h2>
+                        <div style={{ height: '2px',backgroundColor: 'white', width: '100%', margin: '5px 0' }} />
+                        <p className="text-public">Dans un contexte de raréfaction des ressources des collectivités locales, nous vous proposons d'optimiser la gestion financière de votre collectivité, et de mieux en maîtriser les différentes activités. Atteindre cet objectif passe par un renforcement des compétences des agents. C'est à cette fin que nous mettons en oeuvre des formations sur mesure, spécifiquement adaptées au public et à vos structures.</p>
+                    </div>
+                </div>
+
                 <div id="content">
-                    <Row>
-                        <Col md={4} sm={12} xs={12}>
+                    
                             <div id='container'>
                                 <div style={{ marginBottom: '30px', fontSize: '25px', color: '#035913' }}>
                                     CONTROLE DE GESTION
@@ -54,8 +61,7 @@ class Public extends React.Component {
                                     })}
                                 </div>
                             </div>
-                        </Col>
-                        <Col md={4} sm={12} xs={12}>
+                       
                             <div id='container'>
                                 <div style={{ marginBottom: '30px', fontSize: '25px', color: '#035913' }}>
                                     COMPTABILITE
@@ -66,8 +72,7 @@ class Public extends React.Component {
                                     })}
                                 </div>
                             </div>
-                        </Col>
-                        <Col md={4} sm={12} xs={12}>
+                        
                             <div id='container'>
                                 <div style={{ marginBottom: '30px', fontSize: '25px', color: '#035913' }}>
                                     BUDGET
@@ -78,8 +83,7 @@ class Public extends React.Component {
                                     })}
                                 </div>
                             </div>
-                        </Col>
-                        <Col md={4} sm={12} xs={12}>
+                        
                             <div id='container'>
                                 <div style={{ marginBottom: '30px', fontSize: '25px', color: '#035913' }}>
                                     MARCHES PUBLICS
@@ -90,8 +94,7 @@ class Public extends React.Component {
                                     })}
                                 </div>
                             </div>
-                        </Col>
-                        <Col md={4} sm={12} xs={12}>
+                        
                             <div id='container'>
                                 <div style={{ marginBottom: '30px', fontSize: '25px', color: '#035913' }}>
                                     ANALYSE FINANCIERE
@@ -102,8 +105,7 @@ class Public extends React.Component {
                                     })}
                                 </div>
                             </div>
-                        </Col>
-                    </Row>
+                        
                 </div>   
 
                 {/* <div id="content">
