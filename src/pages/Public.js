@@ -29,7 +29,7 @@ class Public extends React.Component {
 
     render() { 
         return (
-            <div className="public" style={{ paddingTop: '76px', backgroundColor: '#f5f5f5' }}>
+            <div className="public" style={{ paddingTop: '76px', backgroundColor: '#e8e8e8' }}>
                 <div id="public-head">
                     <div id="public-text">
                         <h2 className="title-public">Formations Secteur Public</h2>
@@ -42,14 +42,71 @@ class Public extends React.Component {
                 </div>
 
                 <div id="content">
-                    <div id="aside">
-                        <h5>Nous proposons 20 formations divisées en 5 thèmes :</h5>
-                        <a href="#1">Contrôle de gestion</a>
-                        <a href="#2">Comptabilité</a>
-                        <a href="#3">Budget</a>
-                        <a href="#4">Marchés publics</a>
-                        <a href="#5">Analyse financière</a>
-                    </div>
+                    <Row>
+                        <Col md={4} sm={12} xs={12}>
+                            <div id='container'>
+                                <div style={{ marginBottom: '30px', fontSize: '25px', color: '#035913' }}>
+                                    CONTROLE DE GESTION
+                                </div>
+                                <div>
+                                    {publicControlegestionData.map(formation => {
+                                        return <FormationsModal formation={formation} />
+                                    })}
+                                </div>
+                            </div>
+                        </Col>
+                        <Col md={4} sm={12} xs={12}>
+                            <div id='container'>
+                                <div style={{ marginBottom: '30px', fontSize: '25px', color: '#035913' }}>
+                                    COMPTABILITE
+                                </div>
+                                <div>
+                                    {publicComptabiliteData.map(formation => {
+                                        return <FormationsModal formation={formation} />
+                                    })}
+                                </div>
+                            </div>
+                        </Col>
+                        <Col md={4} sm={12} xs={12}>
+                            <div id='container'>
+                                <div style={{ marginBottom: '30px', fontSize: '25px', color: '#035913' }}>
+                                    BUDGET
+                                </div>
+                                <div>
+                                    {publicBudgetData.map(formation => {
+                                        return <FormationsModal formation={formation} />
+                                    })}
+                                </div>
+                            </div>
+                        </Col>
+                        <Col md={4} sm={12} xs={12}>
+                            <div id='container'>
+                                <div style={{ marginBottom: '30px', fontSize: '25px', color: '#035913' }}>
+                                    MARCHES PUBLICS
+                                </div>
+                                <div>
+                                    {publicMarchepublicData.map(formation => {
+                                        return <FormationsModal formation={formation} />
+                                    })}
+                                </div>
+                            </div>
+                        </Col>
+                        <Col md={4} sm={12} xs={12}>
+                            <div id='container'>
+                                <div style={{ marginBottom: '30px', fontSize: '25px', color: '#035913' }}>
+                                    ANALYSE FINANCIERE
+                                </div>
+                                <div>
+                                    {publicAnalysefinanciereData.map(formation => {
+                                        return <FormationsModal formation={formation} />
+                                    })}
+                                </div>
+                            </div>
+                        </Col>
+                    </Row>
+                </div>   
+
+                {/* <div id="content">
                     <div id="formations-container">
                         <Card className="formations-card" id="1">
                             <Card.Header>CONTROLE DE GESTION</Card.Header>
@@ -91,8 +148,8 @@ class Public extends React.Component {
                                 })} 
                             </Card.Body>
                         </Card>
-                    </div>
-                </div>
+                    </div> 
+                </div> */}
             </div>
         );
     }

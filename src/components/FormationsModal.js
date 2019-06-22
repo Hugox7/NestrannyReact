@@ -27,8 +27,10 @@ class FormationsModal extends React.Component {
 
         return (
             <div className="formation">
-                <>{formation.fiche} - {formation.titre}</>
-                <Button className="modal-button" onClick={() => this.setState({ show: true })}>Fiche</Button>
+                <a style={{ cursor: 'pointer', textAlign: 'left' }} onClick={() => this.setState({ show: true })}>
+                    <>{formation.fiche} - {formation.titre}</>
+                </a>
+                {/* <Button className="modal-button" onClick={() => this.setState({ show: true })}>Fiche</Button> */}
                 <Modal
                     show={this.state.show}
                     onHide={() => this.setState({ show: false })}

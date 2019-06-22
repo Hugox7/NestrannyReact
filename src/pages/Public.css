@@ -91,3 +91,10 @@
     margin-bottom: 20px;
     margin-top: 10px;
 }
+
+#container {
+    height: 450px;
+    margin: 0.5vw 0.5vw 35px 0.5vw;
+    background-color: white;
+    padding: 10px;
+}
