@@ -1,5 +1,4 @@
 import React from 'react';
-import { Row, Col, Card, Container } from 'react-bootstrap';
 //import { Link } from 'react-router-dom';
 import { 
     publicBudgetData, 
@@ -37,7 +36,7 @@ class Public extends React.Component {
                         <p className="text-public">Dans un contexte de raréfaction des ressources des collectivités locales, nous vous proposons d'optimiser la gestion financière de votre collectivité, et de mieux en maîtriser les différentes activités. Atteindre cet objectif passe par un renforcement des compétences des agents. C'est à cette fin que nous mettons en oeuvre des formations sur mesure, spécifiquement adaptées au public et à vos structures.</p>
                     </div>
                     <div id="image-box">
-                        <img src={publicPic} />
+                        <img alt="img bandeau public" src={publicPic} />
                     </div>
                 </div>
 
@@ -105,7 +104,6 @@ class Public extends React.Component {
                                     })}
                                 </div>
                             </div>
-                        
                 </div>   
             </div>
         );

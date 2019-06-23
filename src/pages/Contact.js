@@ -3,23 +3,13 @@ import { Row, Col, Form, Button } from 'react-bootstrap';
 
 import MapComponent from '../components/MapComponent';
 
-import img1 from '../assets/img/galery/IMG_6667.JPG';
-import img2 from '../assets/img/galery/IMG_6737.JPG';
-import img3 from '../assets/img/galery/IMG_6755.JPG';
-// import img4 from '../assets/img/galery/IMG_6764.JPG';
-// import img5 from '../assets/img/galery/IMG_6767.JPG';
-// import img6 from '../assets/img/galery/IMG_6772.JPG';
-// import home from '../assets/home.png';
-// import phone from '../assets/phone.png';
-
-
 import './Contact.css';
 
 const Contact = () => {
     return(
         <div id="contact">
             <div className="text-contact">
-                <p>Vous souhaitez établir un devis ou poser une question, n'hésitez pas à utiliser le formulaire.<br/>Nous vous recontacterons rapidement<br/></p>
+                <p>Vous souhaitez être recontacté pour avoir plus de renseignements ou obtenir un devis, n'hésitez pas à utiliser le formulaire.</p>
             </div>
 
             <Row className="contact-row">
@@ -88,11 +78,7 @@ const Contact = () => {
                         </Col>
                         
                     </Row>
-                    <Row>
-                        <Col><img src={img1} alt="decoration pic" style={{ marginTop: "38px" }}/></Col>
-                        <Col><img src={img2} alt="decoration pic" style={{ marginTop: "38px" }}/></Col>
-                        <Col><img src={img3} alt="decoration pic" style={{ marginTop: "38px" }}/></Col>
-                    </Row>
+                    
                 </Col>
             </Row>
         </div>

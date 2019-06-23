@@ -1,72 +1,76 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { Row, Col, Card, Container } from 'react-bootstrap';
 import { 
-    priveAnalyseData, 
-    priveFondamentauxData, 
     priveMarchepublicData, 
+    priveFondamentauxData, 
+    priveAnalyseData, 
 } from '../priveData';
 import FormationsModal from '../components/FormationsModal';
 import './Prive.css';
-import privePic from '../assets/image2.jpg';
-
 import './Prive.css';
 
 class Prive extends React.Component {
 
     render() {
-        return (
-            <div className="prive" style={{ paddingTop: '76px', backgroundColor: '#f5f5f5' }}>
+        return (                
+<div className="prive" style={{ paddingTop: '76px', backgroundColor: '#e8e8e8' }}>
                 <div id="prive-head">
                     <div id="prive-text">
-                        <h2 className="title-public">Formations Secteur Privé</h2>
+                        <h2 className="title-prive">Formations Secteur Privé</h2>
                         <div style={{ height: '2px',backgroundColor: 'white', width: '70%' }} />
-                        <p className="text-public">Dans un contexte de raréfaction des ressources des collectivités locales, nous vous proposons d'optimiser la gestion financière de votre collectivité, et de mieux en maîtriser les différentes activités. Atteindre cet objectif passe par un renforcement des compétences des agents. C'est à cette fin que nous mettons en oeuvre des formations sur mesure, spécifiquement adaptées au public et à vos structures.</p>
+                        <p className="text-prive">Dans un contexte de raréfaction des ressources des collectivités locales, nous vous proposons d'optimiser la gestion financière de votre collectivité, et de mieux en maîtriser les différentes activités. Atteindre cet objectif passe par un renforcement des compétences des agents. C'est à cette fin que nous mettons en oeuvre des formations sur mesure, spécifiquement adaptées au public et à vos structures.</p>
                     </div>
-                    <div id="box">
-                        <img src={privePic} />
+                    <div id="image-box">
+                    <img alt="img bandeau secteur prive" src={require('../assets/img/galery/image2light.jpg')} />
                     </div>
                 </div>
 
-                <div id="content-prive">
-                    <div id="aside">
-                        <h5>Nous proposons 20 formations divisées en 5 thèmes :</h5>
-                        <a href="#1">Contrôle de gestion</a>
-                        <a href="#2">Comptabilité</a>
-                        <a href="#3">Budget</a>
-                        <a href="#4">Marchés publics</a>
-                        <a href="#5">Analyse financière</a>
-                    </div>
-                    <div id="formations">
-                        <Card className="formations-card" id="1">
-                            <Card.Header>FONDAMENTAUX DE GESTION</Card.Header>
-                            <Card.Body>
-                                {priveFondamentauxData.map(formation => {
-                                        return <FormationsModal formation={formation} />
-                                })} 
-                            </Card.Body>
-                        </Card>
-                        <Card className="formations-card" id="2">
-                            <Card.Header>MARCHES PUBLICS</Card.Header>
-                            <Card.Body>
-                                {priveMarchepublicData.map(formation => {
-                                    return <FormationsModal formation={formation} />
-                                })} 
-                            </Card.Body>
-                        </Card>
-                        <Card className="formations-card" id="3">
-                            <Card.Header>ANALYSE DE GESTION</Card.Header>
-                            <Card.Body>
-                                {priveAnalyseData.map((formation, index) => {
-                                    return <FormationsModal formation={formation} key={index} />
-                                })}
-                            </Card.Body>
-                        </Card>
+                <div id="prive-head-mobile">
+                    <div id="prive-text-mobile">
+                        <h2 className="title-prive">Formations Secteur Privé</h2>
+                        <div style={{ height: '2px',backgroundColor: 'white', width: '100%', margin: '5px 0' }} />
+                        <p className="text-prive">Dans un contexte de raréfaction des ressources des collectivités locales, nous vous proposons d'optimiser la gestion financière de votre collectivité, et de mieux en maîtriser les différentes activités. Atteindre cet objectif passe par un renforcement des compétences des agents. C'est à cette fin que nous mettons en oeuvre des formations sur mesure, spécifiquement adaptées au public et à vos structures.</p>
                     </div>
                 </div>
-            </div>
+
+                <div id="content">
+                    
+                            <div id='container'>
+                                <div style={{ marginBottom: '30px', fontSize: '25px', color: 'darkcyan' }}>
+                                    MARCHE PUBLIC
+                                </div>
+                                <div>
+                                    {priveMarchepublicData.map(formation => {
+                                        return <FormationsModal formation={formation} />
+                                    })}
+                                </div>
+                            </div>
+                       
+                            <div id='container'>
+                                <div style={{ marginBottom: '30px', fontSize: '25px', color: 'darkcyan' }}>
+                                    FONDAMENTAUX DE GESTION
+                                </div>
+                                <div>
+                                    {priveFondamentauxData.map(formation => {
+                                        return <FormationsModal formation={formation} />
+                                    })}
+                                </div>
+                            </div>
+                        
+                            <div id='container'>
+                                <div style={{ marginBottom: '30px', fontSize: '25px', color: 'darkcyan' }}>
+                                    ANALYSE DE GESTION
+                                </div>
+                                <div>
+                                    {priveAnalyseData.map(formation => {
+                                        return <FormationsModal formation={formation} />
+                                    })}
+                                </div>
+                            </div>                                              
+                </div>   
+            </div>                                
         );
     }
 }
 
+                   
 export default Prive;

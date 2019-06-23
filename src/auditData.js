@@ -1,7 +1,7 @@
 export const auditanalyseData = [
     {
         fiche: "1", /*ok*/
-        titre: "Analyser et suivez vos finances",
+        titre: "Analysez et suivez vos finances",
         texte: "La situation financière de votre structure reste la clé pour développer vos activités. Elus et dirigeants de collectivités locales, vous bénéficiez d’une analyse de vos comptes administratifs et de vos comptes de gestion, à portée rétrospective ou à visée prospective. Dirigeants d’entreprises, vous pouvez vous appuyer sur l’analyse des bilans et comptes de résultat pour caractériser votre situation financière.",
         sstitre1: "Réalisation d’un audit financier",
         txtsstitre1: "Secteur public. En début de mandat, pour un bilan à mi-mandat, ou pour le bilan de fin de mandat, il est nécessaire de caractériser la situation financière de votre collectivité, tant au niveau du fonctionnement qu’à celui de l’investissement. Secteur privé. Votre entreprise nécessite à tout instant une analyse de son équilibre financier, de son fond de roulement et de son besoin en fonds de roulement, jusqu’à sa trésorerie.",

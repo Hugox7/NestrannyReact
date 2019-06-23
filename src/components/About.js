@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react';
-import imageAbout from '../assets/img/galery/imageabout.jpg';
-import { Row, Col, Card, Container } from 'react-bootstrap';
+import { Row, Col, Container } from 'react-bootstrap';
 import { Timeline, Event } from 'react-timeline-scribble';
 
 import './About.css';
@@ -19,7 +18,7 @@ const About = () => {
                         <div className="steph">
                             <div className="selfie-wrapper left">
                                 <div style={{ position: 'relative' }}>
-                                    <img src={steph} />
+                                    <img alt="photographie de Stephane" src={steph} />
                                     <div className="hidden-part">
                                         <p>"Faire de notre expertise de la gestion financière une force pour vous apporter notre savoir-faire."</p>
                                         <h5 style={{ marginTop: '50px' }}>Stéphane Lefebvre</h5>
@@ -32,7 +31,7 @@ const About = () => {
                         <div className="regis">
                             <div className="selfie-wrapper right">
                                 <div style={{ position: 'relative' }}>
-                                    <img src={regis} />
+                                    <img alt="photographie de Regis" src={regis} />
                                     <div className="hidden-part">
                                         <p>"Mettre notre énergie et notre écoute au service d'un pédagogie active pour une gestion opérationnelle immédiate."</p>
                                         <h5>Régis Trichard</h5>
