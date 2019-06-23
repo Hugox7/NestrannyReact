@@ -66,13 +66,13 @@ class FormationsModal extends React.Component {
                             </div>
                         </div>
                         <div id="content">
-                            <h4 className={className}>Public</h4>
+                            <h4 style={{ width: '100%' }} className={className}>Public</h4>
                             <p>{formation.public}</p>
-                            <h4 className={className}>Objectif</h4>
+                            <h4 style={{ width: '100%' }} className={className}>Objectif</h4>
                             <p>{formation.objectifs}</p>
-                            <h4 className={className}>Contenu</h4>
-                            <ul>
-                                {formation.contenu.map(elem => <li>{elem}</li>)}
+                            <h4 style={{ width: '100%' }} className={className}>Contenu</h4>
+                            <ul style={{ textAlign: 'left', width: '100%' }}>
+                                {formation.contenu.map(elem => <li style={{ textAlign: 'left' }}>{elem}</li>)}
                             </ul>
                         </div>
                     </Modal.Body>

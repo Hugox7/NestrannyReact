@@ -107,51 +107,6 @@ class Public extends React.Component {
                             </div>
                         
                 </div>   
-
-                {/* <div id="content">
-                    <div id="formations-container">
-                        <Card className="formations-card" id="1">
-                            <Card.Header>CONTROLE DE GESTION</Card.Header>
-                            <Card.Body>
-                                {publicControlegestionData.map(formation => {
-                                        return <FormationsModal formation={formation} />
-                                })} 
-                            </Card.Body>
-                        </Card>
-                        <Card className="formations-card" id="2">
-                            <Card.Header>COMPTABILITE</Card.Header>
-                            <Card.Body>
-                                {publicComptabiliteData.map(formation => {
-                                    return <FormationsModal formation={formation} />
-                                })} 
-                            </Card.Body>
-                        </Card>
-                        <Card className="formations-card" id="3">
-                            <Card.Header>BUDGET</Card.Header>
-                            <Card.Body>
-                                {publicBudgetData.map((formation, index) => {
-                                    return <FormationsModal formation={formation} key={index} />
-                                })}
-                            </Card.Body>
-                        </Card>
-                        <Card className="formations-card" id="4">
-                            <Card.Header>MARCHES PUBLICS</Card.Header>
-                            <Card.Body>
-                            {publicMarchepublicData.map(formation => {
-                                        return <FormationsModal formation={formation} />
-                                })} 
-                            </Card.Body>
-                        </Card>
-                        <Card className="formations-card" id="5">
-                            <Card.Header>ANALYSE FINANCIERE</Card.Header>
-                            <Card.Body>
-                            {publicAnalysefinanciereData.map(formation => {
-                                        return <FormationsModal formation={formation} />
-                                })} 
-                            </Card.Body>
-                        </Card>
-                    </div> 
-                </div> */}
             </div>
         );
     }

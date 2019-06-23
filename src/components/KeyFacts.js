@@ -12,6 +12,7 @@ const KeyFacts = () => {
                 bgImage={require('../assets/image3.jpg')}
                 bgImageAlt="the cat"
                 strength={600}
+                id="keyFacts-parallax"
             >
                 <div id="parallax-content" style={{ height: '700px' }}>
                     <div id="key-facts">
@@ -55,6 +56,12 @@ const KeyFacts = () => {
                     </div>
                 </div>
             </Parallax>
+
+        
+            {/* <div id="keyFacts-mobile">
+                hello
+            </div> */}
+
         </div>
     );
 }

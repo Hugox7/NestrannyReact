@@ -15,10 +15,10 @@ export const auditanalyseData = [
     },
 ]
 
-export const auditfiabiliserData = [
+export const auditfiabiliserData = [ 
     {
         fiche: "2", /*ok*/
-        titre: "Fiabilisez vos procédures comptablest suivez vos finances",
+        titre: "Fiabilisez vos procédures comptables et suivez vos finances",
         texte: "Le contexte économique et financier des collectivités est aujourd’hui contraint. Il oblige à une meilleure maîtrise des dépenses, renforcée par l’application des règles comptables et juridiques. Cette situation nécessite la mise en œuvre de procédures. Celle-ci est longue et souvent fastidieuse. Les élus aux finances et les directeurs financiers de collectivités ne disposent pas du temps pour opérer cette démarche. Aussi, nous vous proposons de vous aider et de vous accompagner dans la rédaction et dans la mise en place de procédures comptables.",
         sstitre1: "Audit de la comptabilité d’engagement",
         txtsstitre1: "La procédure d’engagement des dépenses de fonctionnement et d’investissement est obligatoire pour toutes les collectivités locales depuis 1996. Le non-respect de cette obligation peut faire l’objet de sanctions financières de la part de la Chambre Régionale des Comptes. Pour éviter ces sanctions, nous vous proposons d’analyser avec vous votre fonctionnement, et de vous accompagner pour la mise en place d’une procédure d’engagement répondant aux obligations légales.",
