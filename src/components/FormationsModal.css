@@ -98,11 +98,6 @@
      
 }
 
-.modal-button {
-    color: #035913 !important;
-    border-color: #035913 !important;
-}
-
 .modal-button:hover {
     background-color: #035913 !important;
     color: white !important;

@@ -1,4 +1,4 @@
-.conseil {
+/*.conseil {
     margin-top: 76px;
     display: flex;
     flex-direction: column;
@@ -17,35 +17,117 @@
     align-items: center;
     padding: 15px;
     border-radius: 10px;
+}*/
+
+
+#conseil-head {
+    display: flex;
+    width: 100%;
+    height: 320px;
 }
 
-.conseil-head {
+#conseil-text {
+    width: 50%;
+    height: 100%;
+    background: white;
+    box-sizing: border-box;
+    padding: 30px 100px;
+    background-color: #fd7e14;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
-    width: 60vw;
     text-align: justify;
 }
 
-.conseil li {
-    color: grey !important;
-    width: 60vw;
+#conseil-text h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white
 }
 
-.title-assistance {
-    background-color: green !important;
-    color: white !important;
-    margin: 1vw;
+#conseil-text p {
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+#box {
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#conseil-head-mobile {
+    width: 100%;
+}
+
+#conseil-text-mobile {
+    width: 100%;
+    height: 100%;
+    color: white;
+    box-sizing: border-box;
+    padding: 70px 4vw;
+    background-color: #fd7e14;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px;
-    border-radius: 10px;
+    text-align: justify;
 }
 
-.sousconseil-head {
-    width: 60vw;
+#conseil-text-mobile h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
 }
 
+#conseil-text-mobile p {
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+.infos-card {
+    font-size: 17px;
+}
+
+#container {
+    padding: 20px;
+    position: relative !important;
+}
+
+#container button {
+    color: #fd7e14 !important;
+    border-color: #fd7e14 !important;
+    background-color: white;
+    position: absolute !important;
+    bottom: 30px !important;
+    right: 30px;
+}
+
+.container button:hover {
+    background-color: #fd7e14 !important;
+    border-color:#fd7e14 !important;
+    color: white !important;
+}
+
+@media screen and (max-width: 1400px) {
+    #conseil-head {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    #conseil-head-mobile {
+        display: none;
+    }
+}

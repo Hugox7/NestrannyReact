@@ -1,49 +1,143 @@
 import React from 'react';
-//import { Row, Col } from 'react-bootstrap';
-//import { Link } from 'react-router-dom';
+import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import { 
+    auditanalyseData, 
+    auditfiabiliserData, 
+    auditcontrolerData, 
+    auditcommuniquerData, 
+    auditpilotezData,
+    auditeloborerData
+} from '../auditData';
 
 import './Conseil.css';
 
 
-const Conseil = () => {
-    return (
-        <div className="conseil">
-            <div className="conseil-head">
-                <h2 className="title-conseil">Conseils, Etudes et Audits</h2>
-                <p className="text-conseil">Face à la nécessité de maîtriser vos dépenses/charges et vos recettes/produits, nous vous proposons de vous accompagner dans la mise en oeuvre d'outils de gestion à portée stratégique (analyses financières, rétrospectives et prospectives...) ou opérationnelle (indicateurs/KPI, tableaux de bord d'activité, comptabilité analytique...) Nos solutions s'accompagnent du développement des outils, de leur pérennisation et de leur maintenance.</p>
-            </div>
-            <div className="sousconseil-head">
-                <h6 className="title-assistance">Nos domaines de compétences</h6>
-            </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">Réalisation d'un audit financier</li>
-                <li class="list-group-item">Analyse financière rétrospective</li>
-                <li class="list-group-item">Mise en place d'une stratégie financière</li>
-                <li class="list-group-item">Réalisation d'un audit des associations</li>
-                <li class="list-group-item">Audit de la comptabilité d'engagement</li>
-                <li class="list-group-item">Mise en oeuvre des autorisations de programme / crédits de paiement</li>
-                <li class="list-group-item">Définition d'un guide des procédures financières et comptables</li>
-                <li class="list-group-item">Mise en place d'une comptabilité analytique</li>
-                <li class="list-group-item">Mise en place et pérennisation des tableaux de bord opérationnels</li>
-                <li class="list-group-item">Assistance à la mise en place de tableaux de bord comptables et financiers</li>
-                <li class="list-group-item">Définition et mise en place d'un programme de maîtrise des dépenses</li>
-                <li class="list-group-item">Optimisation des outils de gestion du patrimoine</li>
-                <li class="list-group-item">Définition et mise en place d'outils de communication financière interne</li>
-                <li class="list-group-item">Définition et mise en place d'outils de communication financière externe</li>
-                <li class="list-group-item">Conception et présentation de rapports financiers</li>
+class Conseil extends React.Component {
+
+    state = {
+        show: false,
+    }
+
+    onClick = () => {
+        this.setState({ show: true });
+    }
+
+    render() {
+        return (
+            <div className="conseil" style={{ paddingTop: '76px', backgroundColor: '#e8e8e8' }}>
+                <div id="conseil-head">
+                        <div id="conseil-text">
+                            <h2 className="title-conseil">Conseil, Etudes et Audit</h2>
+                            <div style={{ height: '2px',backgroundColor: 'white', width: '70%' }} />
+                            <p className="text-conseil">Face à la nécessité de maîtriser vos dépenses/charges et vos recettes/produits, nous vous proposons de vous accompagner dans la mise en oeuvre d'outils de gestion à portée stratégique (analyses financières, rétrospectives et prospectives...) ou opérationnelle (indicateurs/KPI, tableaux de bord d'activité, comptabilité analytique...) Nos solutions s'accompagnent du développement des outils, de leur pérennisation et de leur maintenance.</p>
+                        </div>
+                        <div id="image-box">
+                            <img src={require('../assets/img/galery/imageprems.jpg')} />
+                        </div>
+                    </div>
+    
+                    <div id="conseil-head-mobile">
+                        <div id="conseil-text-mobile">
+                            <h2 className="title-conseil">Conseil, Etudes et Audit</h2>
+                            <div style={{ height: '2px',backgroundColor: 'white', width: '100%', margin: '5px 0' }} />
+                            <p className="text-conseil">Face à la nécessité de maîtriser vos dépenses/charges et vos recettes/produits, nous vous proposons de vous accompagner dans la mise en oeuvre d'outils de gestion à portée stratégique (analyses financières, rétrospectives et prospectives...) ou opérationnelle (indicateurs/KPI, tableaux de bord d'activité, comptabilité analytique...) Nos solutions s'accompagnent du développement des outils, de leur pérennisation et de leur maintenance.</p>
+                        </div>
+                    </div>
+    
+                    <div id="content">
                         
-            
-            {/*<div className="sousconseil-head">
-               <h6 className="title-assistance">Le contrôle de gestion pour les entreprises du secteur privé :</h6>
-            </div>
-                <li class="list-group-item">Mise en place d'une comptabilité analytique</li>
-                <li class="list-group-item">Mise en place et pérennisation des tableaux de bord opérationnels</li>
-                <li class="list-group-item">Assistance à la mise en place de tableaux de bord comptables et financiers</li>
-                <li class="list-group-item">Définition et mise en place d'un programme de maîtrise des dépenses</li>
-                <li class="list-group-item">Optimisation des outils de gestion du patrimoine</li> */}
-        </ul> 
-    </div> 
-    );
+                                <div id='container'>
+                                    <div style={{ marginBottom: '30px', fontSize: '25px', color: '#fc9b1d' }}>
+                                        ANALYSER ET SUIVEZ VOS FINANCES
+                                    </div>
+                                    <div className="infos-card">
+                                        <p>Réalisation d'un audit financier</p>
+                                        <p>Analyse financière</p>
+                                        <p>Mise en place d'une stratégie financière</p>
+                                        <p>Externalisation de la fonction financière</p>
+                                    </div>
+                                    <Button className="button-card">Voir la fiche</Button>
+                                </div>
+                           
+                                <div id='container'>
+                                    <div style={{ marginBottom: '30px', fontSize: '25px', color: '#fc9b1d' }}>
+                                        FIABILISEZ VOS PROCEDURES COMPTABLES
+                                    </div>
+                                    <div className="infos-card">
+                                        <p>Audit de la comptabilité d'engagement</p>
+                                        <p>Optimisation de la procédure de la préparation budgétaire</p>
+                                        <p>Mise en oeuvre des autorisations de programme et des crédits de paiements</p>
+                                        <p>Définition d'un guide de procédures financières et comptables</p>
+                                    </div>
+                                    <div>
+                                        <Button>Voir la fiche</Button>
+                                    </div>
+                                    
+                                </div>
+                            
+                                <div id='container'>
+                                    <div style={{ marginBottom: '30px', fontSize: '25px', color: '#fc9b1d' }}>
+                                        CONTROLEZ VOTRE GESTION
+                                    </div>
+                                    <div className="infos-card">
+                                        <p>Mise en place d'une comptabilité analytique</p>
+                                        <p>Mise en place de la pérénnistation des tableaux de bord opérationnels</p>
+                                        <p>Assistance à la mise en place des tableaux de bord comptables et financiers</p>
+                                        <p>Définition et mise en place d'un programme de maîtrise des dépenses</p>
+                                        <p>Optimisation des outils de gestion du patrimoine</p>
+                                    </div>
+                                    <div>
+                                        <Button>Voir la fiche</Button>
+                                    </div>
+                                </div>
+                            
+                                <div id='container'>
+                                    <div style={{ marginBottom: '30px', fontSize: '25px', color: '#fc9b1d' }}>
+                                        COMMUNIQUEZ <br />SUR VOS FINANCES
+                                    </div>
+                                    <div className="infos-card">
+                                        <p>Définition et mise en place d'outils de communication financière interne</p>
+                                        <p>Définition et mise en place d'outils de communication finanicère externe</p>
+                                        <p>Conception et présentation de rapports financiers</p>                                    
+                                    </div>
+                                    <div>
+                                        <Button>Voir la fiche</Button>
+                                    </div>
+                                </div>
+                            
+                                <div id='container'>
+                                    <div style={{ marginBottom: '30px', fontSize: '25px', color: '#fc9b1d' }}>
+                                        PILOTEZ LA GESTION DE <br />VOS ASSOCIATIONS
+                                    </div>
+                                    <div className="infos-card">
+                                        <p>Contrôle financier et juridique des associations associées</p>
+                                        <p>Réalisation d'un audit comptable, financier et juridique pour les associations</p>
+                                    </div>
+                                    <div>
+                                        <Button>Voir la fiche</Button>
+                                    </div>
+                                </div>
+    
+                                <div id='container'>
+                                    <div style={{ marginBottom: '30px', fontSize: '25px', color: '#fc9b1d' }}>
+                                        ELABOREZ OU REPONDEZ <br />A UN MARCHE PUBLIC
+                                    </div>
+                                    <div className="infos-card">
+                                        <p>Aide et assistance à la rédaction des pièces administratives d'un marché public</p>
+                                        <p>Aide et assistance au montage d'un marché de nettoyage des bâtiments publics</p>
+                                        <p>Aide et assistance au montage d'un marché de restauration collective</p>
+                                        <p>Accompagnement et assistance pour la réponse administrative à un marché public</p>
+                                    </div>
+                                    <div>
+                                        <Button>Voir la fiche</Button>
+                                    </div>
+                                </div>
+                    </div>   
+                </div>
+        );
+    }
+    
 };
 
 export default Conseil;
