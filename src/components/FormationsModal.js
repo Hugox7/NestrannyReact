@@ -12,6 +12,18 @@ class FormationsModal extends React.Component {
         show: false,
     }
 
+    handleOpenModal = () => {
+        this.setState({
+             show: true,
+        });
+    }
+
+    handleCloseModal = () => {
+        this.setState({
+            show: false,
+       });
+    }
+
     render() {
         const formation = this.props.formation;
         console.log(formation);
@@ -27,11 +39,12 @@ class FormationsModal extends React.Component {
 
         return (
             <div className="formation">
-                <>{formation.fiche} - {formation.titre}</>
-                <Button className="modal-button" onClick={() => this.setState({ show: true })}>Fiche</Button>
+                <a href={`#${formation.fiche}`} style={{ cursor: 'pointer', textAlign: 'left' }} onClick={this.handleOpenModal}>
+                    <>{formation.fiche} - {formation.titre}</>
+                </a>
                 <Modal
                     show={this.state.show}
-                    onHide={() => this.setState({ show: false })}
+                    onHide={this.handleCloseModal}
                     container={this}
                     formation={formation}
                     size={'lg'}
@@ -64,13 +77,13 @@ class FormationsModal extends React.Component {
                             </div>
                         </div>
                         <div id="content">
-                            <h4 className={className}>Public</h4>
+                            <h4 style={{ width: '100%' }} className={className}>Public</h4>
                             <p>{formation.public}</p>
-                            <h4 className={className}>Objectif</h4>
+                            <h4 style={{ width: '100%' }} className={className}>Objectif</h4>
                             <p>{formation.objectifs}</p>
-                            <h4 className={className}>Contenu</h4>
-                            <ul>
-                                {formation.contenu.map(elem => <li>{elem}</li>)}
+                            <h4 style={{ width: '100%' }} className={className}>Contenu</h4>
+                            <ul style={{ textAlign: 'left', width: '100%' }}>
+                                {formation.contenu.map(elem => <li style={{ textAlign: 'left' }}>{elem}</li>)}
                             </ul>
                         </div>
                     </Modal.Body>

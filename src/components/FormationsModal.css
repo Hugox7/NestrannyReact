@@ -76,7 +76,7 @@
 }
 
 .formation-picto p {
-    text-align: center;
+    text-align: center !important;
 }
 
 #content {
@@ -96,11 +96,6 @@
     font-size: 22px;
     border-radius: 4px;
      
-}
-
-.modal-button {
-    color: #035913 !important;
-    border-color: #035913 !important;
 }
 
 .modal-button:hover {
