@@ -3,14 +3,24 @@ export const auditanalyseData = [
         fiche: "1", /*ok*/
         titre: "Analysez et suivez vos finances",
         texte: "La situation financière de votre structure reste la clé pour développer vos activités. Elus et dirigeants de collectivités locales, vous bénéficiez d’une analyse de vos comptes administratifs et de vos comptes de gestion, à portée rétrospective ou à visée prospective. Dirigeants d’entreprises, vous pouvez vous appuyer sur l’analyse des bilans et comptes de résultat pour caractériser votre situation financière.",
-        sstitre1: "Réalisation d’un audit financier",
-        txtsstitre1: "Secteur public. En début de mandat, pour un bilan à mi-mandat, ou pour le bilan de fin de mandat, il est nécessaire de caractériser la situation financière de votre collectivité, tant au niveau du fonctionnement qu’à celui de l’investissement. Secteur privé. Votre entreprise nécessite à tout instant une analyse de son équilibre financier, de son fond de roulement et de son besoin en fonds de roulement, jusqu’à sa trésorerie.",
-        sstitre2: "Analyse financière rétrospective",
-        txtsstitre2: "Les décisions prises par le passé et les politiques mises en œuvre, pèsent sur les dépenses de fonctionnement actuelles. Notre analyse financière rétrospective vous permettra d’identifier les tendances lourdes et les corrections nécessaires sur vos différents postes de charge.",
-        sstitre3: "Mise en place d’une stratégie financière",
-        txtsstitre3: "En nous appuyant sur les derniers comptes administratifs, ou les derniers comptes de résultat, nous pouvons définir les capacités financières futures de votre structure, et les possibilités de mise en œuvre des politiques pluriannuelles d’investissement.",
-        sstitre4: "Externalisation de la fonction financière",
-        txtsstitre4: "Dirigeant d’entreprise, vous pouvez réaliser des économies par l’externalisation de votre fonction financière, en vous appuyant sur nos consultants pour assurer des missions de direction financière.",
+        parts: [
+            {
+                subtitle: 'Réalisation d’un audit financier',
+                subtitleTxt: 'Secteur public. En début de mandat, pour un bilan à mi-mandat, ou pour le bilan de fin de mandat, il est nécessaire de caractériser la situation financière de votre collectivité, tant au niveau du fonctionnement qu’à celui de l’investissement. Secteur privé. Votre entreprise nécessite à tout instant une analyse de son équilibre financier, de son fond de roulement et de son besoin en fonds de roulement, jusqu’à sa trésorerie.',
+            },
+            {
+                subtitle: 'Analyse financière rétrospective',
+                subtitleTxt: 'Les décisions prises par le passé et les politiques mises en œuvre, pèsent sur les dépenses de fonctionnement actuelles. Notre analyse financière rétrospective vous permettra d’identifier les tendances lourdes et les corrections nécessaires sur vos différents postes de charge.',
+            },
+            {
+                subtitle: "Mise en place d’une stratégie financière",
+                subtitleTxt: "En nous appuyant sur les derniers comptes administratifs, ou les derniers comptes de résultat, nous pouvons définir les capacités financières futures de votre structure, et les possibilités de mise en œuvre des politiques pluriannuelles d’investissement.",
+            },
+            {
+                subtitle: "Externalisation de la fonction financière",
+                subtitleTxt: "Dirigeant d’entreprise, vous pouvez réaliser des économies par l’externalisation de votre fonction financière, en vous appuyant sur nos consultants pour assurer des missions de direction financière.",
+            },
+        ],
         formation: "secteur audit",
     },
 ]

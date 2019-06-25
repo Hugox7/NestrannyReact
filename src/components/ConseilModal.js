@@ -33,7 +33,7 @@ class ConseilModal extends React.Component {
                     onHide={this.handleCloseModal}
                     container={this}
                     conseil={conseil}
-                    size='xl'
+                    size='lg'
                     style={{ color: 'black' }}
                 >
                     <Modal.Header>
@@ -47,38 +47,18 @@ class ConseilModal extends React.Component {
                        
                         <div className="conseil-text">{conseil.texte}</div>
                         <div id="subparts">
-                                <Container fluid={true}>
-                                        <Row>
-                                            <Col xs={12} sm={6} md={6} lg={3}>
-                                                <div className="subpart">
-                                                    <h5>{conseil.sstitre1}</h5>
-                                                    <p>{conseil.txtsstitre1}</p>
-                                                </div>
-                                            </Col>
-                                            <Col xs={12} sm={6} md={6} lg={3}>
-                                                <div className="subpart">
-                                                    <h5>{conseil.sstitre2}</h5>
-                                                    <p>{conseil.txtsstitre2}</p>
-                                                </div>
-                                            </Col>
-                                            <Col xs={12} sm={6} md={6} lg={3}>
-                                                <div className="subpart">
-                                                    <h5>{conseil.sstitre3}</h5>
-                                                    <p>{conseil.txtsstitre3}</p>
-                                                </div>
-                                            </Col>
-                                            <Col xs={12} sm={6} md={6} lg={3}>
-                                                <div className="subpart">
-                                                    <h5>{conseil.sstitre4}</h5>
-                                                    <p>{conseil.txtsstitre4}</p>
-                                                </div>
-                                            </Col>
-                                        </Row>
-                                </Container>  
+                            {conseil.parts ? conseil.parts.map(elem => {
+                                return (
+                                    <div className="subpart">
+                                        <h5>{elem.subtitle}</h5>
+                                        <p>{elem.subtitleTxt}</p>
+                                    </div>
+                                );
+                            }) : ''}
                         </div>
                         </Modal.Body>
                         <Modal.Footer>
-                            <Button onClick={() => this.setState({ show: false })}>Fermer</Button>
+                            <Button className="button-audit" onClick={() => this.setState({ show: false })}>Fermer</Button>
                         </Modal.Footer>
                     </Modal>
                 </div>

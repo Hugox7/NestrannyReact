@@ -3,8 +3,8 @@ import { Row, Col, Container } from 'react-bootstrap';
 import { Timeline, Event } from 'react-timeline-scribble';
 
 import './About.css';
-import steph from '../assets/img/galery/steph6.jpg';
-import regis from '../assets/img/galery/regis1.jpg';
+import steph from '../assets/img/galery/steph.jpg';
+import regis from '../assets/img/galery/regis.jpg';
 
 
 
@@ -21,7 +21,7 @@ const About = () => {
                                     <img alt="photographie de Stephane" src={steph} />
                                     <div className="hidden-part">
                                         <p>"Faire de notre expertise de la gestion financière une force pour vous apporter notre savoir-faire."</p>
-                                        <h5 style={{ marginTop: '50px' }}>Stéphane Lefebvre</h5>
+                                        <h5>Stéphane Lefebvre</h5>
                                     </div>
                                 </div>                               
                             </div>   
