@@ -10,34 +10,30 @@ import regis from '../assets/img/galery/regis.jpg';
 
 const About = () => {
     return (
-        <div style={{ flexWrap: 'wrap' }}>
+        <div style={{ flexWrap: 'wrap'}}>
             <h2 style={{ padding: '40px 0', margin: 0, backgroundColor: '#f5f5f5' }}>Qui sommes-nous ?</h2>
-            <Container fluid={true}>
-                <Row style={{ backgroundColor: '#f5f5f5' }}>
+            <Container style={{ marginBottom: '50px' }} fluid={true}>
+                <Row style={{ backgroundColor: '#f5f5f5', paddingBottom: '50px' }}>
                     <Col xs={12} sm={12} md={6} lg={6} >
-                        <div className="steph">
-                            <div className="selfie-wrapper left">
-                                <div style={{ position: 'relative' }}>
-                                    <img alt="photographie de Stephane" src={steph} />
-                                    <div className="hidden-part">
-                                        <p>"Faire de notre expertise de la gestion financière une force pour vous apporter notre savoir-faire."</p>
-                                        <h5>Stéphane Lefebvre</h5>
-                                    </div>
-                                </div>                               
-                            </div>   
+                        <div className="half left">
+                            <div className="avatar-wrapper">
+                                <img alt="photographie de Stephane" src={steph} />
+                                <div className="hidden-part">
+                                    <p>"Faire de notre expertise de la gestion financière une force pour vous apporter notre savoir-faire."</p>
+                                    <h5>Stéphane Lefebvre</h5>
+                                </div>
+                            </div>
                         </div>
                     </Col>
                     <Col xs={12} sm={12} md={6} lg={6} >
-                        <div className="regis">
-                            <div className="selfie-wrapper right">
-                                <div style={{ position: 'relative' }}>
-                                    <img alt="photographie de Regis" src={regis} />
-                                    <div className="hidden-part">
-                                        <p>"Mettre notre énergie et notre écoute au service d'un pédagogie active pour une gestion opérationnelle immédiate."</p>
-                                        <h5>Régis Trichard</h5>
-                                    </div>
-                                </div> 
-                            </div>   
+                        <div className="half right">
+                            <div className="avatar-wrapper">
+                                <img alt="photographie de Regis" src={regis} />
+                                <div className="hidden-part">
+                                    <p>"Mettre notre énergie et notre écoute au service d'une pédagogie active pour une gestion opérationnelle immédiate."</p>
+                                    <h5>Régis Trichard</h5>
+                                </div>
+                            </div>
                         </div>
                     </Col> 
                 </Row>
@@ -85,6 +81,7 @@ const About = () => {
                     </Col>        
                 </Row>
             </Container>
+            <hr />
         </div>
     );
 }
