@@ -36,7 +36,7 @@ class Prive extends React.Component {
                     
                             <div id='container'>
                                 <div style={{ marginBottom: '30px', fontSize: '25px', color: 'darkcyan' }}>
-                                    MARCHE PUBLIC
+                                    MARCHÉS PUBLICS
                                 </div>
                                 <div>
                                     {priveMarchepublicData.map(formation => {

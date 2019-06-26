@@ -52,7 +52,7 @@ class Public extends React.Component {
                     
                             <div id='container'>
                                 <div style={{ marginBottom: '30px', fontSize: '25px', color: '#035913' }}>
-                                    CONTROLE DE GESTION
+                                    CONTRÔLE DE GESTION
                                 </div>
                                 <div>
                                     {publicControlegestionData.map(formation => {
@@ -63,7 +63,7 @@ class Public extends React.Component {
                        
                             <div id='container'>
                                 <div style={{ marginBottom: '30px', fontSize: '25px', color: '#035913' }}>
-                                    COMPTABILITE
+                                    COMPTABILITÉ
                                 </div>
                                 <div>
                                     {publicComptabiliteData.map(formation => {
@@ -85,7 +85,7 @@ class Public extends React.Component {
                         
                             <div id='container'>
                                 <div style={{ marginBottom: '30px', fontSize: '25px', color: '#035913' }}>
-                                    MARCHES PUBLICS
+                                    MARCHÉS PUBLICS
                                 </div>
                                 <div>
                                     {publicMarchepublicData.map(formation => {
@@ -96,7 +96,7 @@ class Public extends React.Component {
                         
                             <div id='container'>
                                 <div style={{ marginBottom: '30px', fontSize: '25px', color: '#035913' }}>
-                                    ANALYSE FINANCIERE
+                                    ANALYSE FINANCIÈRE
                                 </div>
                                 <div>
                                     {publicAnalysefinanciereData.map(formation => {
