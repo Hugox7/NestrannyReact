@@ -26,7 +26,7 @@ const Cards = () => {
                             <Card.Body>
                                 <Card.Title>Formations Secteur Public</Card.Title>
                                 <Card.Text>
-                                Dans un contexte de raréfaction des resssources des collectivités locales, nous vous proposons d'optimiser la gestion...
+                                Dans un contexte de raréfaction des ressources des collectivités locales, nous vous proposons d'optimiser la gestion...
                                 </Card.Text>
                                 <Link style={{ padding: 0 }} to="/secteur-public"><Button className="cardButton1" variant="outline-success">En savoir plus</Button></Link>
                             </Card.Body>
@@ -52,9 +52,9 @@ const Cards = () => {
                             <Card.Img variant="top" src={conseil} />
                             <div className="line-conseil" />
                             <Card.Body className="card-body">
-                                <Card.Title>Conseils, études et audits</Card.Title>
+                                <Card.Title>Conseil, études et audits</Card.Title>
                                 <Card.Text>
-                                Face à la nécessité de maîtriser vos dépenses/chages et vos recettes / produits, nous vous proposons de vous accompagner dgitans...
+                                Face à la nécessité de maîtriser vos dépenses/charges et vos recettes/produits, nous vous proposons de vous accompagner...
                                 </Card.Text>
                                 <Link style={{ padding: 0 }} to="/conseil-et-audit"><Button className="cardButton3" variant="outline-success">En savoir plus</Button></Link>
                             </Card.Body>

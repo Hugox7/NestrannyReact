@@ -3,7 +3,7 @@ export const publicBudgetData = [
     {
         fiche: "1", /*ok*/
         section: "Budget",
-        titre: "Autorisations et crédits de paiement",
+        titre: "Autorisations de programme et crédits de paiement",
         duree: "2 jours",
         pedagogie: "Exposés, diaporama et cas pratiques",
         public: "La loi du 6 février 1992 dite « Administration Territoriale de la République » prévoit, dans son article 50, la possibilité pour les collectivités territoriales de plus de 3.500 habitants de gérer les investissements directs sous forme d’Autorisations de Programme et de Crédits de Paiement. Cette formation s’adresse donc tout particulièrement aux élus, directeurs généraux de service, directeurs financiers, directeurs des services techniques des Communes de plus de 3.500 habitants.",
@@ -141,7 +141,7 @@ export const publicComptabiliteData = [
         {
             fiche: "1", /*ok*/
             section: "Contrôle de gestion",
-            titre: "Les outils du controle de gestion",
+            titre: "Les outils du contrôle de gestion",
             duree: "3 jours",
             pedagogie: "Exposés, diaporama et cas pratiques",
             public: "Cette formation s’adresse à tous les agents des collectivités locales impliqués dans la gestion budgétaire et comptable des services : directeurs financiers, contrôleurs de gestion, conseillers de gestion, mais également directeurs des services techniques, responsables des centres techniques municipaux, et plus généralement tous les responsables des services opérationnels.",

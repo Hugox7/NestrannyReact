@@ -47,11 +47,11 @@ const About = () => {
                             <Timeline>
                                 <Event interval={"2000"}>
                                     Naissance d’une belle amitié et complémentarité professionnelle entre Stéphane Lefebvre, directeur financier et Régis Trichard, 
-                                    directeur du service Enfance et scolaire au sein de la commune de Vernouillet (Yvelines).
+                                    directeur du service Enfance et Scolaire au sein de la commune de Vernouillet (Yvelines).
                                 </Event>
                                 <Event interval={"2003"}>
                                     Stéphane Lefebvre décide de se lancer seul dans une nouvelle aventure et créé Nestranny Conseil, fort de son expérience de directeur financier et de celle de consultant formateur dans deux cabinets de conseil. 
-                                    Nestranny Conseil est né de la volonté de mettre au service des acteurs du secteur public ses compétences issue de cette double expérience.
+                                    Nestranny Conseil est née de la volonté de mettre au service des acteurs du secteur public ses compétences issues de cette double expérience.
                                 </Event>
                                 <Event interval={"2004"}>
                                     Régis Trichard quitte la commune de Vernouillet pour prendre en charge et développer 
