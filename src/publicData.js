@@ -75,7 +75,7 @@ export const publicBudgetData = [
         public: "Cette formation s’adresse aux agents des Communes de moins de 3.500 habitants, devant préparer le budget de leur collectivité.",
         objectifs: "La session de formation permettra aux participants de disposer d’une méthodologie et des outils nécessaires à la préparation budgétaire dans le cadre de l’instruction comptable M14.",
         contenu: ["Les principes budgétaires et comptables,", "La M14 : nomenclature par nature,", "Mettre en place et suivre la comptabilité de l’engagement des dépenses,", "Faut-il appliquer l’amortissement et les provisions ?,", "Le budget : les dépenses,", "Le budget : les recettes,", "Le calendrier budgétaire,", "Les documents budgétaires et comptables,", "Les tableaux de bord budgétaires et comptables et leur utilité dans l’élaboration du budget de la Commune."],
-        dformation: "secteur public",
+        formation: "secteur public",
     },
 ]
 

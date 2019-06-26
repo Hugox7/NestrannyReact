@@ -3,11 +3,12 @@ import MapReact from 'google-map-react';
 
 import icon from '../assets/icon-marker.png';
 
-const AnyReactComponent = () => <div><img src={icon} alt="nestranny-map-marker" /></div>
+const Marker = ({ text }) =>  <p>{text}</p>;   // <img src={img} alt="nestranny-map-marker" />;
 
 const API_KEY = process.env.REACT_APP_API_KEY;
 
 class MapComponent extends React.Component {
+
     static defaultProps = {
         center: {
             lat: 48.97582807807397,
@@ -28,9 +29,10 @@ class MapComponent extends React.Component {
                         region: 'fr',
                     }}
                 >
-                    <AnyReactComponent 
-                        lat={48.97582807807397}
-                        lng={2.0538475221679846}
+                    <Marker 
+                        lat={this.props.lat}
+                        lng={this.props.lng}
+                        text="nestranny"
                     />  
                 </MapReact>
             </div>
