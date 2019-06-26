@@ -10,19 +10,25 @@
 
 #subparts {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     margin-bottom: 30px;
 }
 
 .subpart {
-    border: 2px solid orange;
-    border-radius: 5px;
-    min-height: 500px;
     padding: 10px;
 }
 
 .subpart h5 {
     margin-bottom: 20px;
+    width: 100%;
+    background-color: #fd7e14;
+    color: white;
+    border-radius: 5px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .conseil-text {
@@ -50,4 +56,5 @@
     color: white; 
     border: 1px solid #fd7e14;
 }
+
 

@@ -127,7 +127,7 @@ export const publicComptabiliteData = [
     {
         fiche: "5", /*ok*/
         section: "Comptabilité",
-        titre: 'La gestion du patrimoine',
+        titre: 'La gestion comptable du patrimoine',
         duree: "2 jours",
         pedagogie: "Exposés, diaporama et cas pratiques",
         public: "Cette formation s’adresse aux agents des collectivités locales et plus particulièrement des Communes, chargés du suivi comptable du patrimoine de la structure : responsables de services financiers, responsables de services techniques, agents des services de comptabilité impliqués dans la comptabilisation des immobilisations, des amortissements, et de l’inventaire.",
