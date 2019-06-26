@@ -8,16 +8,16 @@ import './Contact.css';
 const Contact = () => {
     return(
         <div id="contact">
-            <div className="text-contact">
+            {/* <div className="text-contact">
                 <p>Vous souhaitez être recontacté pour avoir plus de renseignements ou obtenir un devis, n'hésitez pas à utiliser le formulaire.</p>
-            </div>
+            </div> */}
 
             <Row className="contact-row">
                 <Col xs={12} sm={12} md={6} id= "left-col">
                     <div id="form-global">
                         <Form action="https://formcarry.com/s/CRhVxnwQ-MD" method="POST" accept-charset="UTF-8">
                             <Form.Group controlId="formBasicEmail">
-                                <Form.Label>Collectivité ou entreprise</Form.Label>
+                                <Form.Label>Collectivité ou Entreprise</Form.Label>
                                 <Form.Control type="text" name="Collectivité ou entreprise" />
                             </Form.Group>
                             <Row>
@@ -69,7 +69,6 @@ const Contact = () => {
                             >
                                 <div style={{ textAlign: "left", height: "100px", fontSize: "20px" }}>
                                     <p><span>Nestranny Conseil</span><br/>38 bis rue du Général Leclerc<br />78570 Andrésy<br/>01 39 27 38 52</p>
-                                    <p>Suivez-nous sur les réseaux sociaux</p>
                                 </div>
                             </div>
                         </Col>
