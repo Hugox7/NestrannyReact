@@ -43,8 +43,7 @@
 }
 
 .hidden-part p {
-    background: none;
-    font-size: 27px;
+    background: none;  
     color: black;
 }
 
@@ -54,5 +53,26 @@
 
 .avatar-wrapper {
     position: relative;
-    width: 70%;
+    margin-bottom: 10px;
 }
+
+@media screen and (min-width: 769px) {
+    .avatar-wrapper {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .hidden-part p {
+        font-size: 27px;
+    }
+}
+
+@media screen and (max-width: 399px) {
+    .hidden-part p {
+        font-size: 18px;
+    }
+}
+
+
+

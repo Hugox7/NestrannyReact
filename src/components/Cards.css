@@ -87,3 +87,8 @@
 .card.Title {
     font-weight: bold;
 }
+
+.card-text {
+    height: 96px;
+    margin: 0;
+}

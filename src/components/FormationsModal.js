@@ -37,6 +37,9 @@ class FormationsModal extends React.Component {
             className='conseil'
         }
 
+        const buttonClass = formation.formation === 'secteur public' ? 'greenButton' : 'blueButton';
+
+        
         return (
             <div className="formation">
                 <a href={`#${formation.fiche}`} style={{ cursor: 'pointer', textAlign: 'left' }} onClick={this.handleOpenModal}>
@@ -88,7 +91,7 @@ class FormationsModal extends React.Component {
                         </div>
                     </Modal.Body>
                     <Modal.Footer>
-                        <Button className="modal-button" onClick={() => this.setState({ show: false })}>Fermer</Button>
+                        <Button className={`${buttonClass}`} onClick={() => this.setState({ show: false })}>Fermer</Button>
                     </Modal.Footer>
                 </Modal>
             </div>

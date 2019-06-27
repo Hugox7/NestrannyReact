@@ -13,7 +13,7 @@ const Contact = () => {
             </div> */}
 
             <Row className="contact-row">
-                <Col xs={12} sm={12} md={6} id= "left-col">
+                <Col xs={12} sm={12} md={12} xl={6} id= "left-col">
                     <div id="form-global">
                         <Form action="https://formcarry.com/s/CRhVxnwQ-MD" method="POST" accept-charset="UTF-8">
                             <Form.Group controlId="formBasicEmail">
@@ -56,9 +56,9 @@ const Contact = () => {
                         </Form>
                     </div>
                 </Col>
-                <Col xs={12} sm={12} md={6} className="rightCol">
+                <Col xs={12} sm={12} md={12} xl={6} className="rightCol">
                     <Row>
-                        <Col xs={12} sm={12} md={5}>
+                        <Col xs={12} sm={12} md={5} xl={5}>
                             <div 
                                 style={{ 
                                     display: "flex", 
@@ -67,12 +67,12 @@ const Contact = () => {
                                     alignItems: "left",
                                 }}
                             >
-                                <div style={{ textAlign: "left", height: "100px", fontSize: "20px" }}>
+                                <div style={{ textAlign: "left", minHeight: "100px", fontSize: "20px" }}>
                                     <p><span>Nestranny Conseil</span><br/>38 bis rue du Général Leclerc<br />78570 Andrésy<br/>01 39 27 38 52</p>
                                 </div>
                             </div>
                         </Col>
-                        <Col xs={12} sm={12} md={7}>
+                        <Col xs={12} sm={12} md={7} xl={7}>
                             <MapComponent />
                         </Col>
                         
