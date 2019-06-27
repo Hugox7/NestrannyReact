@@ -27,7 +27,7 @@ class ConseilModal extends React.Component {
                 {/* <a style={{ cursor: 'pointer', textAlign: 'left' }} onClick={() => this.setState({ show: true })}>
                     <>{conseil.titre}</>
                 </a> */}
-                <Button className="button-audit" onClick={this.handleOpenModal}>Voir Fiche</Button>
+                <Button className="button-audit" onClick={this.handleOpenModal}>Voir les thèmes</Button>
                 <Modal
                     show={this.state.show}
                     onHide={this.handleCloseModal}

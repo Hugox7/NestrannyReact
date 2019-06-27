@@ -32,7 +32,7 @@ class Conseil extends React.Component {
     
                     <div id="conseil-head-mobile">
                         <div id="conseil-text-mobile">
-                            <h2 className="title-conseil">Conseil, Etudes et Audit</h2>
+                            <h2 className="title-conseil">Conseil, Etudes et Audits</h2>
                             <div style={{ height: '2px',backgroundColor: 'white', width: '100%', margin: '5px 0' }} />
                             <p className="text-conseil">Face à la nécessité de maîtriser vos dépenses/charges et vos recettes/produits, nous vous proposons de vous accompagner dans la mise en oeuvre d'outils de gestion à portée stratégique (analyses financières, rétrospectives et prospectives...) ou opérationnelle (indicateurs/KPI, tableaux de bord d'activité, comptabilité analytique...). Nos solutions s'accompagnent du développement des outils, de leur pérennisation et de leur maintenance.</p>
                         </div>
@@ -124,7 +124,7 @@ class Conseil extends React.Component {
     
                                 <div id='container'>
                                     <div style={{ marginBottom: '30px', fontSize: '25px', color: '#fc9b1d' }}>
-                                        ÉLABOREZ OU RÉPONDEZ <br />A UN MARCHÉ PUBLIC
+                                        ÉLABOREZ OU RÉPONDEZ <br />À UN MARCHÉ PUBLIC
                                     </div>
                                     <div className="infos-card">
                                         <p>Aide et assistance à la rédaction des pièces administratives d'un marché public</p>

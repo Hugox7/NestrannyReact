@@ -1,24 +1,24 @@
 export const priveMarchepublicData = [
     {
         fiche: "1", /*ok*/
-        section: "Marchés Public",
+        section: "Marchés Publics",
         titre: "Vendre aux collectivités locales",
         duree: "1 jour",
         pedagogie: "Exposés, diaporama et cas pratiques",
         public: "Cette formation s’adresse aux directions des PME souhaitant pénétrer le marché des collectivités locales, mais aussi aux collaborateurs et managers des services commerciaux chargés de vendre les produits aux prospects publics locaux.",
         objectifs: "Pour chacun des participants, il s'agit de connaître le marché potentiel des collectivités locales : quelle est la nature et quel est le montant de l'achat dans les communes, les départements, les régions, et les structures intercommunales. Chacun sera dès lors en mesure d'intégrer le processus décisionnel et l'organisation interne d'une collectivité locale et saura donc à qui s'adresser.",
-        contenu: ["les différents types de collectivités et leur mission,", "Les moyens financiers des collectivités locales,", "L'organisation de l'achat dans les collectivités locales."],
+        contenu: ["Les différents types de collectivités et leur mission,", "Les moyens financiers des collectivités locales,", "L'organisation de l'achat dans les collectivités locales."],
         formation: "secteur privé",
     },
     {
         fiche: "2", /*ok*/
-        section: "Marchés Public",
+        section: "Marchés Publics",
         titre: "Répondre à un marché public",
         duree: "1 jour",
         pedagogie: "Exposés, diaporama et cas pratiques",
         public: "Cette formation s’adresse aux collaborateurs des services juridiques des entreprises chargés de l'organisation de la réponse aux marchés publics et aux collaborateurs des services comptables chargés du suivi des factures.",
         objectifs: "À l’issue de cette formation, les participants maîtriseront les contraintes et les règles relatives au Code des Marchés Publics. Ils sauront quelle est la procédure à suivre face à un acheteur public. Ils pourront également contrôler le circuit de paiement des acheteurs publics : comment sont traitées les factures et quel est le délai de paiement d'une collectivité locale.",
-        contenu: ["les différents types de marchés publics,", "Les différentes procédures applicables aux marchés publics,", "La publicité : repérer les mises en concurrence,", "L'organisation de la réponse à un marché public,", "Après le marché public : le paiement de vos factures."],
+        contenu: ["Les différents types de marchés publics,", "Les différentes procédures applicables aux marchés publics,", "La publicité : repérer les mises en concurrence,", "L'organisation de la réponse à un marché public,", "Après le marché public : le paiement de vos factures."],
         formation: "secteur privé",
     },
 ]
@@ -43,7 +43,7 @@ export const priveFondamentauxData = [
         pedagogie: "Exposés, diaporama et cas pratiques",
         public: "Cette formation est destinée aux collaborateurs des services commerciaux, des services achat et des services comptables des PME, devant maîtriser les bases de la gestion pour mieux connaître la rentabilité de leur entreprise et leurs capacités de négociation.",
         objectifs: "À l'issue de la formation, les participants sauront lire et interpréter le bilan et le compte de résultat simplifié de leur entreprise ; ils en maîtriseront les enjeux. Ils comprendront les principales notions de gestion de leur structure. Partant de ces éléments, ils identifieront les chiffres essentiels à mettre en valeur.",
-        contenu: ["Présentation d'un bilan et d'un compte de résultat simplifié,", "Identification des notions de gestion,", "Chiffre d'affaires,", "Prix de vente, Coût d'achat,", "Marge brute,", "Taux de marque et taux de marge,", "Coefficient multiplicateur,", "Stocks", "Rotation et couverture."],
+        contenu: ["Présentation d'un bilan et d'un compte de résultat simplifié,", "Identification des notions de gestion,", "Chiffre d'affaires,", "Prix de vente, Coût d'achat,", "Marge brute,", "Taux de marque et taux de marge,", "Coefficient multiplicateur,", "Stocks,", "Rotation et couverture."],
         formation: "secteur privé",
     },
     {

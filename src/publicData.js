@@ -98,7 +98,7 @@ export const publicComptabiliteData = [
         duree: "2 jours",
         pedagogie: "Exposés, diaporama et cas pratiques",
         public: "Cette formation s'adresse en priorité aux agents des collectivités locales et établissements publics locaux ayant des fonctions comptables : ils peuvent s'occuper au sein de la chaine comptable, des demandes d'achat, de l'engagement des dépenses, de la liquidation ou du mandatement.",
-        objectifs: "La loi dite \"Administration Territoriale de la République\" du 6 février 1992 a rendu obligatoire la mise en place de la comptablilité d'engagement dans les collectivités locales. Les agents devront, à l'issue de cette formation, cerner l'environnement juridique de l'engagement des dépenses et des recettes. Par ailleurs, le enjeux et les objectifs de cette comptabilité seront maîtrisés. Au-delà, cette formation permettra surtout d'apprécier les modalités de mise en place de ces outils et l'adaptation de l'organisation comptable de la collectivité pour répondre à ces objectifs.",
+        objectifs: "La loi dite \"Administration Territoriale de la République\" du 6 février 1992 a rendu obligatoire la mise en place de la comptablilité d'engagement dans les collectivités locales. Les agents devront, à l'issue de cette formation, cerner l'environnement juridique de l'engagement des dépenses et des recettes. Par ailleurs, les enjeux et les objectifs de cette comptabilité seront maîtrisés. Au-delà, cette formation permettra surtout d'apprécier les modalités de mise en place de ces outils et l'adaptation de l'organisation comptable de la collectivité pour répondre à ces objectifs.",
         contenu: ["Définition et enjeux de l'engagement des dépenses et des recettes,", "Référence aux textes légaux,", "Engagement comptable et engagement juridique,", "Engagement en fonctionnement et engagement en investissement,", "Engagement des dépenses et engagement des recettes,", "Les tableaux de bord de l'engagement,", "Le manuel des procédures de l'engagement."],
         formation: "secteur public",
     },
@@ -185,7 +185,7 @@ export const publicComptabiliteData = [
         {
             fiche: "5", /* ?*/
             section: "Contrôle de gestion",
-            titre: 'La gestion du patrimoine',
+            titre: 'Le contrôle de gestion du patrimoine',
             duree: "2 jours",
             pedagogie: "Exposés, diaporama et cas pratiques",
             public: "Cette formation s’adresse aux agents des collectivités locales, chargés du suivi physique du patrimoine de la structure : responsables de services techniques, et agents des services opérationnels.",
@@ -198,18 +198,18 @@ export const publicComptabiliteData = [
     export const publicMarchepublicData = [
             {
                 fiche: "1", /*ok*/
-                section: "Marché Public",
+                section: "Marchés Publics",
                 titre: "L'exécution financière des marchés publics",
                 duree: "3 jours",
                 pedagogie: "Exposés, diaporama et cas pratiques",
-                public: "Les agents des services comptables et financiers <span class='italic'>(et tout agent en charge du suivi financier des marchés publics)</span>, doivent maîtriser la chaîne comptable et financière, depuis l’engagement des marchés jusqu’au paiement des soldes. Pour ces agents, une mise à plat de la procédure est donc indispensable afin de s’assurer de la fluidité des réalisations et des paiements liés aux marchés publics, d’autant plus que le Code des Marchés Publics évolue régulièrement.",
+                public: "Les agents des services comptables et financiers (et tout agent en charge du suivi financier des marchés publics), doivent maîtriser la chaîne comptable et financière, depuis l’engagement des marchés jusqu’au paiement des soldes. Pour ces agents, une mise à plat de la procédure est donc indispensable afin de s’assurer de la fluidité des réalisations et des paiements liés aux marchés publics, d’autant plus que le Code des Marchés Publics évolue régulièrement.",
                 objectifs: "À l’issue de la formation, les participants disposeront des outils concrets et de la méthodologie leur permettant d’organiser efficacement le suivi financier des marchés publics de la collectivité. Ils maîtriseront et mettront en œuvre l’exécution financière des marchés publics, dans le respect des règles de paiement qui leur sont appliquées. Les agents concernés appliqueront les règles du mandatement des factures sur les marchés publics, en maîtrisant sa forme.",
                 contenu: ["La chaîne comptable : de l'engagement au paiement,", "Avances et acomptes,", "Décompte général et définitif,", "Retenues de garantie,", "Garanties à première demande et caution personnelle et solidaire,", "Cession et nantissement de créances,", "Groupement d'offres et sous-traitance,", "Les pièces justificatives,", "Le respect des délais de paiement."],
                 formation: "secteur public",
             },
             {
                 fiche: "2", /*ok*/
-                section: "Marché Public",
+                section: "Marchés Publics",
                 titre: "Les marchés à procédure adaptée",
                 duree: "2 jours",
                 pedagogie: "Exposés, diaporama et cas pratiques",

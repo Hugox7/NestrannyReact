@@ -17,7 +17,7 @@ class Prive extends React.Component {
                     <div id="prive-text">
                         <h2 className="title-prive">Formations Secteur Privé</h2>
                         <div style={{ height: '2px',backgroundColor: 'white', width: '70%' }} />
-                        <p className="text-prive">Dans un contexte de raréfaction des ressources des collectivités locales, nous vous proposons d'optimiser la gestion financière de votre collectivité, et de mieux en maîtriser les différentes activités. Atteindre cet objectif passe par un renforcement des compétences des agents. C'est à cette fin que nous mettons en oeuvre des formations sur mesure, spécifiquement adaptées au public et à vos structures.</p>
+                        <p className="text-prive">Dans un contexte économique tendu, où la maîtrise des coûts et la pérennisation des marges restent des objectifs vitaux pour assurer la rentabilité des entreprises, nous vous proposons d'en optimiser la gestion opérationnelle et de mieux en maîtriser l'activité. Atteindre cet objectif passe par un renforcement des compétences des différents collaborateurs en matière de gestion. C'est à cette fin que nous mettons des formations sur mesure, spécifiquement adaptées aux entreprises.</p>
                     </div>
                     <div id="image-box">
                     <img alt="img bandeau secteur prive" src={require('../assets/img/galery/image2light.jpg')} />
@@ -28,7 +28,7 @@ class Prive extends React.Component {
                     <div id="prive-text-mobile">
                         <h2 className="title-prive">Formations Secteur Privé</h2>
                         <div style={{ height: '2px',backgroundColor: 'white', width: '100%', margin: '5px 0' }} />
-                        <p className="text-prive">Dans un contexte de raréfaction des ressources des collectivités locales, nous vous proposons d'optimiser la gestion financière de votre collectivité, et de mieux en maîtriser les différentes activités. Atteindre cet objectif passe par un renforcement des compétences des agents. C'est à cette fin que nous mettons en oeuvre des formations sur mesure, spécifiquement adaptées au public et à vos structures.</p>
+                        <p className="text-prive">Dans un contexte économique tendu, où la maîtrise des coûts et la pérennisation des marges restent des objectifs vitaux pour assurer la rentabilité des entreprises, nous vous proposons d'en optimiser la gestion opérationnelle et de mieux en maîtriser l'activité. Atteindre cet objectif passe par un renforcement des compétences des différents collaborateurs en matière de gestion. C'est à cette fin que nous mettons des formations sur mesure, spécifiquement adaptées aux entreprises.</p>
                     </div>
                 </div>
 

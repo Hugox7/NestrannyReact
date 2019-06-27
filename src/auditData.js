@@ -41,7 +41,7 @@ export const auditfiabiliserData = [
             },
             {
                 subtitle: "Mise en œuvre des autorisations de programme / crédits de paiement",
-                subtitleTxt: "Depuis la loi du 6 février 1992, les collectivités locales sont en mesure de mettre en place une gestion pluriannuelle de leurs investissements, avec des Autorisations de programme et des crédits de paiement, par délibération. Elus et dirigeants des communes et EPCI, nous vous proposons de mettre en œuvre et de fiabiliser cette procédure pour vos investissements.",
+                subtitleTxt: "Depuis la loi du 6 février 1992, les collectivités locales sont en mesure de mettre en place une gestion pluriannuelle de leurs investissements, avec des autorisations de programme et des crédits de paiement, par délibération. Elus et dirigeants des communes et EPCI, nous vous proposons de mettre en œuvre et de fiabiliser cette procédure pour vos investissements.",
             },
             {
                 subtitle: "Définition d’un guide des procédures financières et comptables",

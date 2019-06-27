@@ -27,7 +27,7 @@ const Picto = () => {
                             <img src={adaptability} alt="picto-adaptabilité"/>
                             <h2 className="title-picto">Une adaptabilité</h2>
                         </div>
-                        <p className="text-picto">Pour la mise en oeuvre des dispositifs de formation : Analyse de vos attentes et de vos besoins et validation au préalable des programmes. Adaptabilité des contenus de formation aux procédures propres du client. Des formations, des programmes et des contenus sur mesure.</p>
+                        <p className="text-picto">Pour la mise en oeuvre des dispositifs de formation : Analyse des attentes et des besoins et validation au préalable des programmes. Adaptabilité des contenus de formation aux procédures propres du client. Des formations, des programmes et des contenus sur mesure.</p>
                     </div>
                 </Col>
                 <Col xs={12} sm={12} md={6} className="picto-column">
