@@ -11,7 +11,7 @@ import regis from '../assets/img/galery/regis.jpg';
 const About = () => {
     return (
         <div style={{ flexWrap: 'wrap'}}>
-            <h2 style={{ padding: '40px 0', margin: 0, backgroundColor: '#f5f5f5' }}>Qui sommes-nous ?</h2>
+            <h2 className='who-about' style={{ padding: '40px 0', margin: 0, backgroundColor: '#f5f5f5' }}>Qui sommes-nous ?</h2>
             <Container style={{ marginBottom: '50px' }} fluid={true}>
                 <Row style={{ backgroundColor: '#f5f5f5', paddingBottom: '50px' }}>
                     <Col xs={12} sm={12} md={6} lg={6} >

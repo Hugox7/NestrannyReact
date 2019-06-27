@@ -4,7 +4,7 @@ import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 import egalite from '../assets/img/egalite.jpg';
-import conseil from '../assets/img/conseil.JPG';
+import conseil from '../assets/img/photocards3.jpg';
 import business from '../assets/img/business.jpg';
 
 import './Cards.css';

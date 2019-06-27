@@ -56,6 +56,10 @@
     margin-bottom: 10px;
 }
 
+.who-about {
+    font-family: "Questrial", sans-serif;
+}
+
 @media screen and (min-width: 769px) {
     .avatar-wrapper {
         width: 70%;
