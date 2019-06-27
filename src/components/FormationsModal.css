@@ -4,14 +4,25 @@
     margin-bottom: 15px;
 }
 
-.modal-button {
+.greenButton{
     color: #035913 !important;
     border-color: #035913 !important; 
     background-color: white;
 }
 
-.modal-button:hover {
+.greenButton:hover {
     background-color: #035913 !important;
+    color: white !important;
+}
+
+.blueButton {
+    color: darkcyan !important;
+    border-color: darkcyan !important; 
+    background-color: white;
+}
+
+.blueButton:hover {
+    background-color: darkcyan !important;
     color: white !important;
 }
 
@@ -96,11 +107,6 @@
     font-size: 22px;
     border-radius: 4px;
      
-}
-
-.modal-button:hover {
-    background-color: #035913 !important;
-    color: white !important;
 }
 
 .public-sheets {
