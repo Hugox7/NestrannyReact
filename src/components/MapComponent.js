@@ -1,43 +1,25 @@
 import React from 'react';
-import MapReact from 'google-map-react';
+import { Map, GoogleApiWrapper, Marker, InfoWindow } from 'google-maps-react';
 
-import icon from '../assets/icon-marker.png';
-
-const Marker = ({ text }) =>  <p>{text}</p>;   // <img src={img} alt="nestranny-map-marker" />;
-
-const API_KEY = process.env.REACT_APP_API_KEY;
+const API_KEY = process.env.REACT_APP_API_KEY  || 'AIzaSyC-SwbxlBhcfiJgn4r-mkHxitei94bdj7E';
 
 class MapComponent extends React.Component {
 
-    static defaultProps = {
-        center: {
-            lat: 48.97582807807397,
-            lng: 2.0538475221679846,
-        },
-        zoom: 11,
-    };
-
     render() {
         return (
-            <div style={{ height: '350px', width: '100%' }}>
-                <MapReact
-                    defaultCenter={this.props.center}
-                    defaultZoom={this.props.zoom}
-                    bootstrapURLKeys={{
-                        key: API_KEY,
-                        language: 'fr',
-                        region: 'fr',
-                    }}
-                >
-                    <Marker 
-                        lat={this.props.lat}
-                        lng={this.props.lng}
-                        text="nestranny"
-                    />  
-                </MapReact>
-            </div>
+            <Map
+                google={this.props.google}
+                zoom={11}
+                style={{ position: 'absolute', left: 0, right: 0, bottom: 0 }}
+                initialCenter={{ lat: 48.97582807807397, lng: 2.0538475221679846 }}
+            >
+                <Marker position={{ lat: 48.97582807807397, lng: 2.0538475221679846}} />
+            </Map>
+            
         );
     }
 }
 
-export default MapComponent;
+export default GoogleApiWrapper({
+    apiKey: API_KEY,
+  })(MapComponent);

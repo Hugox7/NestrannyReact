@@ -38,11 +38,12 @@ class FormationsModal extends React.Component {
         }
 
         const buttonClass = formation.formation === 'secteur public' ? 'greenButton' : 'blueButton';
+        const linkClass = formation.formation === 'secteur public' ? 'greenLink' : 'blueLink';
 
         
         return (
             <div className="formation">
-                <a href={`#${formation.fiche}`} style={{ cursor: 'pointer', textAlign: 'left' }} onClick={this.handleOpenModal}>
+                <a className={`${linkClass}`} href={`#${formation.fiche}`} style={{ cursor: 'pointer', textAlign: 'left' }} onClick={this.handleOpenModal}>
                     <>{formation.fiche} - {formation.titre}</>
                 </a>
                 <Modal

@@ -116,3 +116,11 @@
 .prive-sheets {
     background-color: darkcyan;
 }
+
+.greenLink:hover {
+    color: #035913 !important;
+}
+
+.blueLink:hover {
+    color: darkcyan !important;
+}
