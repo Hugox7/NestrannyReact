@@ -21,7 +21,7 @@ class Conseil extends React.Component {
             <div className="conseil" style={{ paddingTop: '76px', backgroundColor: '#e8e8e8' }}>
                 <div id="conseil-head">
                         <div id="conseil-text">
-                            <h2 className="title-conseil">Conseil, Etudes et Audit</h2>
+                            <h2 className="title-conseil">Conseil, Etudes et Audits</h2>
                             <div style={{ height: '2px',backgroundColor: 'white', width: '70%' }} />
                             <p className="text-conseil">Face à la nécessité de maîtriser vos dépenses/charges et vos recettes/produits, nous vous proposons de vous accompagner dans la mise en oeuvre d'outils de gestion à portée stratégique (analyses financières, rétrospectives et prospectives...) ou opérationnelle (indicateurs/KPI, tableaux de bord d'activité, comptabilité analytique...) Nos solutions s'accompagnent du développement des outils, de leur pérennisation et de leur maintenance.</p>
                         </div>
