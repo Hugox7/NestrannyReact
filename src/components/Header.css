@@ -51,4 +51,12 @@ a:hover {
     background-image: url("data:image/svg+xml;..");
   }
 
+  .navbar-toggler {
+      background-color: #008135;
+  }
+
+  #header {
+      color: black !important;
+  }
+
   

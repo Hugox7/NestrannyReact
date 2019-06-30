@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 50px 0;
 } 
 
 #chiffres {
@@ -33,4 +34,37 @@
     .parallax-keyFacts {
         display: none;
     }
+
+    #keyFacts-mobile {
+        min-height: 700px;
+        background: url('../assets/image3.jpg') 70% 70% no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
+
+@media screen and (min-width: 1051px) {
+    #keyFacts-mobile {
+        display: none;
+    }
+}
+
+.parallax-keyFacts {
+    position: 'relative';
+}
+
+#keyNumbers {
+    position: absolute;
+    top: 85px;
+    font-size: 34px !important;
+    font-family: 'Questrial';
+}
+
+/* #keyFacts-mobile {
+    min-height: 700px;
+    background: url('../assets/image3.jpg') 70% 70% no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
