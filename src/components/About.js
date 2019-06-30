@@ -38,7 +38,7 @@ const About = () => {
                     </Col> 
                 </Row>
                 <Row style={{ marginTop: '40px' }}>
-                    <Col xs={12} sm={12} md={6} className="imagebout-column">
+                    <Col xs={12} sm={12} md={12} xl={6} className="imagebout-column">
                         <Fragment>
                             <Timeline>
                                 <Event interval={"2000"}>
@@ -60,7 +60,7 @@ const About = () => {
                             </Timeline>
                         </Fragment>
                     </Col>
-                    <Col xs={12} sm={12} md={6} className="about-column">
+                    <Col xs={12} sm={12} md={12} xl={6} className="about-column">
                         <Fragment>
                             <Timeline>
                                 <Event interval={"2011"}>

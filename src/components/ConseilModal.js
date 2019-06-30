@@ -46,6 +46,7 @@ class ConseilModal extends React.Component {
                     >
                        
                         <div className="conseil-text">{conseil.texte}</div>
+                        <p style={{ paddingLeft: '15px', fontWeight: 'bold' }}>Nos thématiques au choix :</p>
                         <div id="subparts">
                             {conseil.parts ? conseil.parts.map(elem => {
                                 return (

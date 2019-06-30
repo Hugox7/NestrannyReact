@@ -72,7 +72,7 @@
     }
 }
 
-@media screen and (max-width: 399px) {
+@media screen and (max-width: 1050px) {
     .hidden-part p {
         font-size: 18px;
     }

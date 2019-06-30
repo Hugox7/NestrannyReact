@@ -6,7 +6,7 @@ import './KeyFacts.css';
 
 const KeyFacts = () => {
     return (
-        <div>
+        <div className="parallax-keyFacts">
             <Parallax
                 blur={0}
                 bgImage={require('../assets/image3.jpg')}
