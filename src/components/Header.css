@@ -7,7 +7,7 @@
 a {
     color: black;
     text-decoration: none;
-    padding: 0 0.8vw;
+    margin: 0 4px !important;
     font-size: 18px;
 }
 
@@ -29,6 +29,8 @@ a:hover {
     background-repeat: no-repeat;
     background-size: 0% 3px;
     transition: background-size .3s;
+    display: flex;
+    align-items: center;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -45,10 +47,16 @@ a:hover {
     position: relative;
 }
 
-#header-line {
-    width: 100% !important;
-    height: 5px !important;
-    color: green !important;
-}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;..");
+  }
+
+  .navbar-toggler {
+      background-color: #008135;
+  }
+
+  #header {
+      color: black !important;
+  }
 
   

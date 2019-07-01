@@ -13,3 +13,12 @@
 .pictoContainer {
     background-color: #f5f5f5;
 }
+
+.title-picto {
+    font-family: "Questrial", sans-serif;
+}
+
+.text-picto {
+    font-size: 20px;
+    margin: 0 3vw 0 3vw;
+}

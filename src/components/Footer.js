@@ -11,7 +11,7 @@ const Footer = () => {
         <div id="footer">
             <p>© Copyright Nestranny Conseil - {date}</p>    
         </div>
-    );
+    ); 
 }
 
 export default Footer;

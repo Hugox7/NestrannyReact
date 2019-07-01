@@ -12,7 +12,7 @@
     /* position: absolute; */
     width: 100%;
     height: 6px;
-    background-color: green;
+    background-color: #035913;
     left: 0;
     bottom: 26.1vh;
 }
@@ -30,11 +30,65 @@
     /* position: absolute; */
     width: 100%;
     height: 6px;
-    background-color: orange;
+    background-color: #fd7e14;
     left: 0;
     bottom: 176px;
 }
 
 .card-body {
     text-align: left;
+}
+
+.titre-mission {
+    font-family: "Questrial", sans-serif;
+}
+
+.text-mission {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        margin: 0 14vw 15px 14vw;
+        font-size: 20px;
+        font-family: "Roboto", sans-serif;
+}
+
+.cardButton1 {
+    color: #035913 !important;
+    border-color: #035913 !important;
+}
+
+.cardButton1:hover {
+    background-color: #035913 !important;
+    color: white !important;
+}
+
+.cardButton2 {
+    color: darkcyan !important;
+    border-color: darkcyan !important;
+}
+
+.cardButton2:hover {
+    background-color: darkcyan !important;
+    color: white !important;
+}
+
+.cardButton3 {
+    color: #fd7e14 !important;
+    border-color: #fd7e14 !important;
+}
+
+.cardButton3:hover {
+    background-color: #fd7e14 !important;
+    color: white !important;
+}
+
+.card.Title {
+    font-weight: bold;
+}
+
+.card-text {
+    height: 96px;
+    margin: 0;
 }

@@ -1,10 +1,10 @@
 import React from 'react';
 
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import egalite from '../assets/img/egalite.jpg';
-import conseil from '../assets/img/conseil.JPG';
+import conseil from '../assets/img/photocards3.jpg';
 import business from '../assets/img/business.jpg';
 
 import './Cards.css';
@@ -13,7 +13,8 @@ import './Cards.css';
 const Cards = () => {
     return (
         <div id="cards">
-            <h2>Notre mission</h2>
+            <h2 className="titre-mission"> Notre mission</h2>
+            <p className="text-mission">Donner aux élus et aux agents des collectivités locales, aux décideurs du secteur privé et aux responsables associatifs les moyens d’utiliser des outils adaptés à leurs besoins et d’en comprendre les enjeux.</p>
 
             <Container fluid={true}>
                 <Row>
@@ -23,12 +24,11 @@ const Cards = () => {
                             <Card.Img variant="top" src={egalite} />
                             <div className="line-public" />
                             <Card.Body>
-                                <Card.Title>Formations secteur public</Card.Title>
+                                <Card.Title>Formations Secteur Public</Card.Title>
                                 <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
+                                Dans un contexte de raréfaction des ressources des collectivités locales, nous vous proposons d'optimiser la gestion...
                                 </Card.Text>
-                                <Button variant="primary">Voir nos formations</Button>
+                                <Link style={{ padding: 0 }} to="/secteur-public"><Button className="cardButton1" variant="outline-success">En savoir plus</Button></Link>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -38,12 +38,11 @@ const Cards = () => {
                             <Card.Img variant="top" src={business} />
                             <div className="line-prive" />
                             <Card.Body>
-                                <Card.Title>Formations secteur privé</Card.Title>
+                                <Card.Title>Formations Secteur Privé</Card.Title>
                                 <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
+                                Dans un contexte économique tendu, où la maîtrise des coûts et la pérennisation des marges restent des objectifs vitaux...
                                 </Card.Text>
-                                <Button variant="primary">Voir nos formations</Button>
+                                <Link style={{ padding: 0 }} to="/secteur-prive"><Button className="cardButton2" variant="outline-success">En savoir plus</Button></Link>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -53,12 +52,11 @@ const Cards = () => {
                             <Card.Img variant="top" src={conseil} />
                             <div className="line-conseil" />
                             <Card.Body className="card-body">
-                                <Card.Title>Conseil, étude et audit</Card.Title>
+                                <Card.Title>Conseil, études et audits</Card.Title>
                                 <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
+                                Face à la nécessité de maîtriser vos dépenses/charges et vos recettes/produits, nous vous proposons de vous accompagner...
                                 </Card.Text>
-                                <Button variant="primary">Voir nos formations</Button>
+                                <Link style={{ padding: 0 }} to="/conseil-et-audit"><Button className="cardButton3" variant="outline-success">En savoir plus</Button></Link>
                             </Card.Body>
                         </Card>
                     </Col>
