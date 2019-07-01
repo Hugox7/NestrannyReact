@@ -12,7 +12,7 @@ const Contact = () => {
                 <Row className="contact-row">
                     <Col xs={12} sm={12} md={12} xl={6} id= "leftCol">
                         <div id="form-global">
-                            <Form action="https://formcarry.com/s/CRhVxnwQ-MD" method="POST" accept-charset="UTF-8">
+                            <Form action="https://formcarry.com/s/m0HmMwLPi_w" method="POST" accept-charset="UTF-8">
                                 <Form.Group controlId="formBasicEmail">
                                     <Form.Label>Collectivité ou Entreprise</Form.Label>
                                     <Form.Control type="text" name="Collectivité ou entreprise" />

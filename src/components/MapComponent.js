@@ -1,7 +1,7 @@
 import React from 'react';
 import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
 
-const API_KEY = process.env.REACT_APP_API_KEY;
+const API_KEY = 'AIzaSyC-SwbxlBhcfiJgn4r-mkHxitei94bdj7E';
 
 class MapComponent extends React.Component {
 
