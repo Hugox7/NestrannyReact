@@ -1,0 +1,86 @@
+#contact {
+    margin-top: 70px;
+    background-color: #f5f5f5;
+}
+
+#form-global {
+    margin: 4vw;
+    text-align: left;
+}
+
+.submit-button {
+    background-color: white;
+    border: 1px solid #035913;
+    color: #035913;
+}
+
+.submit-button:hover {
+    background-color: #035913;
+    border: 0px;
+    color: white;
+    border: 1px solid #035913;
+}
+
+.form-control:focus {
+    border-color: #035913 !important;
+    box-shadow: 0 0 5px rgba(3, 89, 19, 1) !important;
+}
+
+.contact-row {
+    width: 100%;
+    margin: 0 !important;
+}
+
+.rightCol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-contact {
+    font-size: 20px;
+}
+
+.instructions {
+    height: 200px;
+    font-size: 20px;
+    margin-top:90px;
+}
+
+.contact-info {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+#contact-card {
+    width: 90%;
+    height: 650px;
+    background-color: white;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px;
+    position: relative;
+
+}
+
+#contact-card h5 {
+    font-size: 28px;
+    font-family: 'Questrial';
+}
+
+#contact-card p {
+    font-size: 17px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}

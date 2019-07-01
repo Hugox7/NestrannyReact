@@ -1,0 +1,24 @@
+.picto-column {
+    padding: 4vw;
+}
+
+.picto-head {
+    margin-bottom: 1vw;
+}
+
+.picto-head img {
+    margin-bottom: 0.5vw;
+}
+
+.pictoContainer {
+    background-color: #f5f5f5;
+}
+
+.title-picto {
+    font-family: "Questrial", sans-serif;
+}
+
+.text-picto {
+    font-size: 20px;
+    margin: 0 3vw 0 3vw;
+}
