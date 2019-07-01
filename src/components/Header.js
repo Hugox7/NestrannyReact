@@ -18,7 +18,7 @@ const Header = () => {
                         <IndexLinkContainer exact to="/">
                             <Nav.Link>Accueil</Nav.Link> 
                         </IndexLinkContainer>
-                        <NavDropdown title="Nos formations" id="collasible-nav-dropdown"> 
+                        <NavDropdown title="Nos missions" id="collasible-nav-dropdown"> 
                             <IndexLinkContainer to="/secteur-public">
                                 <NavDropdown.Item>Formations Secteur public</NavDropdown.Item>
                             </IndexLinkContainer>
