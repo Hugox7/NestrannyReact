@@ -1,0 +1,62 @@
+
+.logo {
+    height: 50px;
+    padding-left: 2vw;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    margin: 0 4px !important;
+    font-size: 18px;
+}
+
+a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #008135;
+}
+
+.nav-link {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 3px;
+    transition: background-size .3s;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link:hover, .nav-link:focus {
+    background-size: 100% 3px;
+    color: #008135;
+}
+
+.mr-auto {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2vw;
+    position: relative;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;..");
+  }
+
+  .navbar-toggler {
+      background-color: #008135;
+  }
+
+  #header {
+      color: black !important;
+  }
+
+  
