@@ -31,11 +31,12 @@ a:hover {
     transition: background-size .3s;
     display: flex;
     align-items: center;
+    color: black !important;
 }
 
 .nav-link:hover, .nav-link:focus {
     background-size: 100% 3px;
-    color: #008135;
+    color: #008135 !important;
 }
 
 .mr-auto {
@@ -47,16 +48,33 @@ a:hover {
     position: relative;
 }
 
-.navbar-light .navbar-toggler-icon {
+/* .navbar-light .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;..");
-  }
+} */
 
-  .navbar-toggler {
-      background-color: #008135;
-  }
+/* .navbar-toggler {
+    background-color: #008135;
+} */
 
-  #header {
-      color: black !important;
-  }
+#header {
+    color: black !important;
+}
+
+#header button:focus {
+    outline: none;
+}
+
+#header .dropdown-item {
+    margin: 0 !important;
+}
+
+#header .dropdown-item:hover {
+    background-color: #f5f5f5;
+    color: black;
+}
+
+.dropdown-menu .active {
+    background-color: #008135;
+}
 
   

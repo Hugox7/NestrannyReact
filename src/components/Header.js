@@ -10,7 +10,7 @@ import logo from '../assets/img/logo.jpeg';
 const Header = () => {
     return (
         <div id="header">
-            <Navbar collapseOnSelect expand="lg" bg="white" variant="white" fixed="top" className="navbar-center">
+            <Navbar collapseOnSelect expand="lg" navbar bg="light" fixed="top" className="navbar-center">
                 <Navbar.Brand><Link to="/"><img className="logo" src={logo} alt="nestranny logo"/></Link></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
