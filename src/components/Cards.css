@@ -57,6 +57,7 @@
 .cardButton1 {
     color: #035913 !important;
     border-color: #035913 !important;
+    margin-top: 5px;
 }
 
 .cardButton1:hover {
@@ -67,6 +68,7 @@
 .cardButton2 {
     color: darkcyan !important;
     border-color: darkcyan !important;
+    margin-top: 5px;
 }
 
 .cardButton2:hover {
@@ -77,6 +79,7 @@
 .cardButton3 {
     color: #fd7e14 !important;
     border-color: #fd7e14 !important;
+    margin-top: 5px;
 }
 
 .cardButton3:hover {
