@@ -1,25 +1,35 @@
 import React from 'react';
-import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
+import { Map, TileLayer, Marker, Popup } from 'react-leaflet';
 
-const API_KEY = 'AIzaSyC-SwbxlBhcfiJgn4r-mkHxitei94bdj7E';
+import './mapComponent.css';
 
 class MapComponent extends React.Component {
 
+    state = {
+        lat: 48.97582807807397,
+        lng: 2.0538475221679846,
+        zoom: 13,
+    }
+
     render() {
+
+        const { lat, lng, zoom } = this.state;
+        const position = [lat, lng];
+
         return (
-            <Map
-                google={this.props.google}
-                zoom={11}
-                style={{ position: 'absolute', left: 0, right: 0, bottom: 0 }}
-                initialCenter={{ lat: 48.97582807807397, lng: 2.0538475221679846 }}
-            >
-                <Marker position={{ lat: 48.97582807807397, lng: 2.0538475221679846}} />
+            <Map center={position} zoom={zoom}>
+                <TileLayer
+                    attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                />
+                <Marker position={position}>
+                <Popup>
+                    Nestranny Conseil
+                </Popup>
+                </Marker>
             </Map>
-            
         );
     }
 }
 
-export default GoogleApiWrapper({
-    apiKey: API_KEY,
-  })(MapComponent);
+export default MapComponent;
