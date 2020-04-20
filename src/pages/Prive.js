@@ -12,7 +12,7 @@ class Prive extends React.Component {
 
     render() {
         return (                
-<div className="prive" style={{ paddingTop: '76px', backgroundColor: '#e8e8e8' }}>
+            <div className="prive" style={{ paddingTop: '76px', backgroundColor: '#e8e8e8' }}>
                 <div id="prive-head">
                     <div id="prive-text">
                         <h2 className="title-prive">Formations Secteur Privé</h2>

@@ -67,6 +67,7 @@
     align-items: center;
     padding: 30px;
     position: relative;
+    margin-bottom: 30px;
 
 }
 
@@ -83,4 +84,10 @@
     display: flex;
     justify-content: center;
     height: 150px;
+}
+
+@media screen and (max-width: 496px) {
+    #contact-card {
+        display: none;
+    }
 }

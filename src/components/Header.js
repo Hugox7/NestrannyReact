@@ -6,6 +6,7 @@ import { IndexLinkContainer } from 'react-router-bootstrap';
 import './Header.css';
 
 import logo from '../assets/img/logo.jpeg';
+import twitter from '../assets/twitter.png';
 
 const Header = () => {
     return (
@@ -29,9 +30,16 @@ const Header = () => {
                                 <NavDropdown.Item>Conseil, Etudes et Audits</NavDropdown.Item>
                             </IndexLinkContainer>
                         </NavDropdown>
+                        <IndexLinkContainer to="/partenaires">
+                            <Nav.Link>Nos partenaires</Nav.Link> 
+                        </IndexLinkContainer>
                         <IndexLinkContainer to="/contact">
                             <Nav.Link>Contactez-nous</Nav.Link>
                         </IndexLinkContainer>
+
+                            <div id='twitter-wrapper'>
+                                <a href="https://twitter.com/NestrannyC" target="_blank"><img src={twitter} alt="twitter logo" /></a>
+                            </div>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

@@ -69,26 +69,6 @@ const Contact = () => {
                             
                            
                         </div>
-
-                        {/* <Row>
-                            <Col span={12}>
-                                <div className='instructions'>
-                                    Pour plus de renseignements ou obtenir un devis, merci d'utiliser le formulaire.<br />Nous vous recontacterons dans les plus brefs délais.
-                                </div>
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col xs={12} sm={12} md={6} xl={6}>
-                                <div className="contact-info" >
-                                    <p><span>Nestranny Conseil</span><br/>38 bis rue du Général Leclerc<br />78570 Andrésy<br/>01 39 27 38 52</p>
-                                </div>
-                            </Col>
-                            <Col xs={12} sm={12} md={6} xl={6}>
-                                <div style={{ height: '400px' }}>
-                                    <MapComponent />
-                                </div>
-                            </Col> 
-                        </Row>  */}
                     </Col>
                 </Row>
             </Container>
