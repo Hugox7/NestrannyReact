@@ -9,14 +9,13 @@
 }
 
 .submit-button {
-    background-color: white;
+    background-color: #035913;
     border: 1px solid #035913;
-    color: #035913;
+    color: white;
 }
 
 .submit-button:hover {
     background-color: #035913;
-    border: 0px;
     color: white;
     border: 1px solid #035913;
 }
@@ -67,7 +66,7 @@
     align-items: center;
     padding: 30px;
     position: relative;
-    margin-bottom: 30px;
+    margin: 80px 0px;
 
 }
 
