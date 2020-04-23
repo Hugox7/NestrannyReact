@@ -20,6 +20,7 @@
 
 #partenaire-logo-wrapper img {
     width: 100%;
+    object-fit: cover;
 }
 
 #partenaire-card-content {

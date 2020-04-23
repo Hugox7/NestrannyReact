@@ -20,7 +20,7 @@ const Partenaires = () => {
             </div>
             <div id='partenaires-content'>
                 {partenaires.map(partenaire => {
-                    return <PartenaireCard partenaire={partenaire} />
+                    return <PartenaireCard key={partenaire.company} partenaire={partenaire} />
                 })}
             </div>
         </div>

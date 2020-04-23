@@ -15,7 +15,7 @@ const PartenaireCard = ({ partenaire }) => {
             </div>
             <div id="partenaire-card-content"> 
                 {renderContent}
-                <a style={{ textAlign: 'start' }} href={partenaire.website} target="_blank">Consulter le site web</a>
+                <a style={{ textAlign: 'start' }} href={partenaire.website} rel="noopener noreferrer" target="_blank">Consulter le site web</a>
             </div> 
         </div>
     );

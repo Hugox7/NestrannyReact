@@ -1,5 +1,5 @@
 import imsLogo from './assets/ims.jpg';
-import mcrh from './assets/mcrh.png';
+import mcrh from './assets/logorh.jpg';
 
 export const partenaires = [
     {
@@ -12,7 +12,7 @@ export const partenaires = [
     {
         logo: mcrh,
         company: 'Ma compagnie RH',
-        description: "Ma Compagnie RH accompagne les dirigeants de TPE et PME afin de leur permettre de répondre aux obligations légales et de développer le meilleur environnement de travail possible au sein de leur entreprise. Nous permettons l’accès à un espace de gestion en ligne accessible pour le dirigeant et l’ensemble de ses collaborateurs.",
+        description: "Ma Compagnie RH accompagne les dirigeants de TPE et PME afin de leur permettre de répondre aux obligations légales et de développer le meilleur environnement de travail possible au sein de leur entreprise. Notre gestion de la paie permet l’accès à un espace de gestion des absences et des CP en ligne, accessible pour le dirigeant et l’ensemble de ses collaborateurs",
         website: 'https://sites.google.com/view/macompagnierh/rester-%C3%A0-la-page/les-nouvelles-rh',
         additionalLink: null,
     },

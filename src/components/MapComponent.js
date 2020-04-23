@@ -11,6 +11,10 @@ class MapComponent extends React.Component {
         zoom: 13,
     }
 
+    componentDidMount() {
+        document.addEventListener('touchstart', {passive: true})
+    }
+
     render() {
 
         const { lat, lng, zoom } = this.state;

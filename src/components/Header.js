@@ -38,7 +38,7 @@ const Header = () => {
                         </IndexLinkContainer>
 
                             <div id='twitter-wrapper'>
-                                <a href="https://twitter.com/NestrannyC" target="_blank"><img src={twitter} alt="twitter logo" /></a>
+                                <a href="https://twitter.com/NestrannyC"  target="_blank" rel="noopener noreferrer"><img src={twitter} alt="twitter logo" /></a>
                             </div>
                     </Nav>
                 </Navbar.Collapse>
