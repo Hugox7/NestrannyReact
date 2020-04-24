@@ -2,15 +2,16 @@ import React from 'react';
 
 import Parallax from '../components/Parallax';
 import Cards from '../components/Cards';
-// import Contact from '../components/Contact';
 import Picto from '../components/Picto';
 import KeyFacts from '../components/KeyFacts';
 import About from '../components/About';
+import CovidWarning from '../components/CovidWarning';
 
 const Main = () => {
     return (
         <div>
             <Parallax />
+            <CovidWarning />
             <Cards />
             <Picto />
             <KeyFacts />
