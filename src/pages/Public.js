@@ -50,7 +50,7 @@ class Public extends React.Component {
 
                 <div id="content">
                     
-                            <div id='container'>
+                            <div className='container'>
                                 <div style={{ marginBottom: '30px', fontSize: '25px', color: '#035913' }}>
                                     CONTRÔLE DE GESTION
                                 </div>
@@ -61,7 +61,7 @@ class Public extends React.Component {
                                 </div>
                             </div>
                        
-                            <div id='container'>
+                            <div className='container'>
                                 <div style={{ marginBottom: '30px', fontSize: '25px', color: '#035913' }}>
                                     COMPTABILITÉ
                                 </div>
@@ -72,7 +72,7 @@ class Public extends React.Component {
                                 </div>
                             </div>
                         
-                            <div id='container'>
+                            <div className='container'>
                                 <div style={{ marginBottom: '30px', fontSize: '25px', color: '#035913' }}>
                                     BUDGET
                                 </div>
@@ -83,7 +83,7 @@ class Public extends React.Component {
                                 </div>
                             </div>
                         
-                            <div id='container'>
+                            <div className='container'>
                                 <div style={{ marginBottom: '30px', fontSize: '25px', color: '#035913' }}>
                                     MARCHÉS PUBLICS
                                 </div>
@@ -94,7 +94,7 @@ class Public extends React.Component {
                                 </div>
                             </div>
                         
-                            <div id='container'>
+                            <div className='container'>
                                 <div style={{ marginBottom: '30px', fontSize: '25px', color: '#035913' }}>
                                     ANALYSE FINANCIÈRE
                                 </div>

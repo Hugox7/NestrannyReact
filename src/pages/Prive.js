@@ -34,7 +34,7 @@ class Prive extends React.Component {
 
                 <div id="content">
                     
-                            <div id='container'>
+                            <div className='container'>
                                 <div style={{ marginBottom: '30px', fontSize: '25px', color: 'darkcyan' }}>
                                     MARCHÉS PUBLICS
                                 </div>
@@ -45,7 +45,7 @@ class Prive extends React.Component {
                                 </div>
                             </div>
                        
-                            <div id='container'>
+                            <div className='container'>
                                 <div style={{ marginBottom: '30px', fontSize: '25px', color: 'darkcyan' }}>
                                     FONDAMENTAUX DE GESTION
                                 </div>
@@ -56,7 +56,7 @@ class Prive extends React.Component {
                                 </div>
                             </div>
                         
-                            <div id='container'>
+                            <div className='container'>
                                 <div style={{ marginBottom: '30px', fontSize: '25px', color: 'darkcyan' }}>
                                     ANALYSE DE GESTION
                                 </div>

@@ -39,7 +39,7 @@ class Conseil extends React.Component {
     
                     <div id="content">
                         
-                                <div id='container'>
+                                <div className='container'>
                                     <div style={{ marginBottom: '30px', fontSize: '25px', color: '#fc9b1d' }}>
                                         ANALYSEZ ET SUIVEZ VOS FINANCES
                                     </div>
@@ -54,7 +54,7 @@ class Conseil extends React.Component {
                                         })}
                                 </div>
                            
-                                <div id='container'>
+                                <div className='container'>
                                     <div style={{ marginBottom: '30px', fontSize: '25px', color: '#fc9b1d' }}>
                                         FIABILISEZ VOS PROCÉDURES COMPTABLES
                                     </div>
@@ -72,7 +72,7 @@ class Conseil extends React.Component {
                                     
                                 </div>
                             
-                                <div id='container'>
+                                <div className='container'>
                                     <div style={{ marginBottom: '30px', fontSize: '25px', color: '#fc9b1d' }}>
                                         CONTRÔLEZ VOTRE GESTION
                                     </div>
@@ -90,7 +90,7 @@ class Conseil extends React.Component {
                                     </div>
                                 </div>
                             
-                                <div id='container'>
+                                <div className='container'>
                                     <div style={{ marginBottom: '30px', fontSize: '25px', color: '#fc9b1d' }}>
                                         COMMUNIQUEZ <br />SUR VOS FINANCES
                                     </div>
@@ -106,7 +106,7 @@ class Conseil extends React.Component {
                                     </div>
                                 </div>
                             
-                                <div id='container'>
+                                <div className='container'>
                                     <div style={{ marginBottom: '30px', fontSize: '25px', color: '#fc9b1d' }}>
                                         PILOTEZ LA GESTION DE <br />VOS ASSOCIATIONS
                                     </div>
@@ -121,7 +121,7 @@ class Conseil extends React.Component {
                                     </div>
                                 </div>
     
-                                <div id='container'>
+                                <div className='container'>
                                     <div style={{ marginBottom: '30px', fontSize: '25px', color: '#fc9b1d' }}>
                                         ÉLABOREZ OU RÉPONDEZ <br />À UN MARCHÉ PUBLIC
                                     </div>
