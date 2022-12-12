@@ -5,13 +5,11 @@ import Cards from '../components/Cards';
 import Picto from '../components/Picto';
 import KeyFacts from '../components/KeyFacts';
 import About from '../components/About';
-import CovidWarning from '../components/CovidWarning';
 
 const Main = () => {
     return (
         <div>
             <Parallax />
-            <CovidWarning />
             <Cards />
             <Picto />
             <KeyFacts />
