@@ -6,8 +6,8 @@ import './mapComponent.css';
 class MapComponent extends React.Component {
 
     state = {
-        lat: 48.97582807807397,
-        lng: 2.0538475221679846,
+        lat: 48.430386,
+        lng: 1.49565,
         zoom: 13,
     }
 

@@ -108,20 +108,20 @@ class Contact extends React.Component {
                             </div>
                         </Col>
                         <Col xs={12} sm={12} md={12} xl={6} className="rightCol">
-    
+
                             <div id="contact-card">
                                 <div style={{ marginBottom: '10px' }}>
                                     <h5>Un renseignement, un devis ?</h5>
                                 </div>
                                 <p>N'hésitez pas à nous contacter et nous vous répondrons dans les plus brefs délais.</p>
                                 <div className="contact-info">
-                                    <p><span>Nestranny Conseil</span><br/>38 bis rue du Général Leclerc<br />78570 Andrésy<br/>01 39 27 38 52</p>
+                                    <p><span>Nestranny Conseil</span><br/>2 allée des cottages de Véronique<br />28000 Chartres<br/>02 37 91 04 96</p>
                                 </div>
                                 <div style={{ width: '100%', height: '350px', position: 'relative' }}>
                                     <MapComponent />
                                 </div>
-                                
-                               
+
+
                             </div>
                         </Col>
                     </Row>
@@ -135,11 +135,11 @@ class Contact extends React.Component {
                         </Button>
                     </Modal.Body>
                 </Modal>
-                
+
             </div>
         );
     }
-    
+
 };
 
 export default Contact;
